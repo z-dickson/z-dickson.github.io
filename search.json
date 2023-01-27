@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Zachary Dickson",
+    "section": "",
+    "text": "I’m currently a postdoctoral research fellow at the London School of Economics and Political Science on the COVIDEU project. I’m also affiliated with the  LSE Data Science Institute.   My research focuses on social identity, elites and political representation. Broadly, I’m interested in legislative communication, behavior and responsiveness. Most of my current research applies computational and causal inference methods to study elites’ behavior in relation to public opinion. You can find out more about some of my current research projects here.\n\nPrior to my doctoral research at the University of Glasgow, I earned a masters in international relations at the University of Edinburgh and a bachelor’s degree in political science at Northeastern Illinois University in my hometown of Chicago.\nA copy of my CV can be downloaded  here."
+  },
+  {
+    "objectID": "datasets.html",
+    "href": "datasets.html",
+    "title": "Data/NLP",
+    "section": "",
+    "text": "A few language models I’ve trained – all are available on Huggingface.\n - BertTweet model trained to predict opposition to COVID-19 policies from US congressmembers’ tweets - [huggingface]   - Bert base model (uncased) trained to predict the CAP issue codes of UK bills and statutory instruments - [huggingface]   - Bert base model trained to predict the CAP issue codes of US Congressional bills - [huggingface]\n\n\nA few datasets I’ve put together -\n\nUK Parliamentary Statutory Instruments: 1970-2021 [github]\nParliamentary Bills - Dáil Éireann (Ireland): 1950-2020 [github]\nParliamentary Bills - New Zealand Parliament: 1900-2020 [github]"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Papers under review\n3. The Limits of Partisan Motivated Reasoning in Congress\n(with Tevfik Murat Yildirim)\n2. Who Sets the Agenda? Legislative Responsiveness to NGOs, Corporations and the Media (R&R)\n1. Social class and representation: The effects of socialization on MPs’ responsiveness (R&R)\n\nWorks in progress\n\nYouth Suffrage and Legislative Responsiveness to Climate Change: Evidence from Scotland (with Tevfik Murat Yildirim) \nAre Women Representatives More Responsive to Women’s Issue Priorities? \nIntra-party Preference Diversity and Party-Voter Congruence\n\n  \nBlog Posts & Other Publications\n\nSo Hormonal. 2020. Monstrous Regiment Publishing. Horgan, E. and Dickson, Z. [link]\nWere women MPs more responsive to women’s priorities during the pandemic? [medium]"
+  }
+]
