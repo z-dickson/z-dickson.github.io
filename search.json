@@ -9,15 +9,22 @@
   {
     "objectID": "datasets.html",
     "href": "datasets.html",
-    "title": "Data/NLP",
+    "title": "About",
     "section": "",
-    "text": "A few language models I’ve trained – all are available on Huggingface.\n - BertTweet model trained to predict opposition to COVID-19 policies from US congressmembers’ tweets - [huggingface]   - Bert base model (uncased) trained to predict the CAP issue codes of UK bills and statutory instruments - [huggingface]   - Bert base model trained to predict the CAP issue codes of US Congressional bills - [huggingface]\n\n\nA few datasets I’ve put together -\n\nUK Parliamentary Statutory Instruments: 1970-2021 [github]\nParliamentary Bills - Dáil Éireann (Ireland): 1950-2020 [github]\nParliamentary Bills - New Zealand Parliament: 1900-2020 [github]"
+    "text": "BERT Multilingual Sentiment model trained on Polish, English, Spanish, Dutch and German Newspaper headlines.\n\nHuggingFace\n\nBertTweet model trained to predict opposition to COVID-19 policies from US congressmembers’ tweets\n\nHuggingFace\n\nBert base model (uncased) trained to predict the CAP issue codes of UK bills and statutory instruments\n\nHuggingFace\n\nBert base model trained to predict the CAP issue codes of US Congressional bills\n\nHuggingFace"
+  },
+  {
+    "objectID": "datasets.html#datasets",
+    "href": "datasets.html#datasets",
+    "title": "About",
+    "section": "Datasets",
+    "text": "Datasets\nIf you want a dataset I’ve written about but have not made public, just send me an email.\n\nUK Parliamentary Statutory Instruments: 1970-2021 [github]\nParliamentary Bills - Dáil Éireann (Ireland): 1950-2020 [github]\nParliamentary Bills - New Zealand Parliament: 1900-2020 [github]"
   },
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "Research",
+    "title": "About",
     "section": "",
-    "text": "Doctoral Thesis\nSlide Presentation\nPapers under review\n3. The Limits of Partisan Motivated Reasoning in Congress\n(with Tevfik Murat Yildirim)\n2. Who Sets the Agenda? Legislative Responsiveness to NGOs, Corporations and the Media (R&R)\n1. Social class and representation: The effects of socialization on MPs’ responsiveness (R&R)\n\nWorks in progress\n\nYouth Suffrage and Legislative Responsiveness to Climate Change: Evidence from Scotland (with Tevfik Murat Yildirim) \nAre Women Representatives More Responsive to Women’s Issue Priorities? \nIntra-party Preference Diversity and Party-Voter Congruence\n\n  \nBlog Posts & Other Publications\n\nSo Hormonal. 2020. Monstrous Regiment Publishing. Horgan, E. and Dickson, Z. [link]\nWere women MPs more responsive to women’s priorities during the pandemic? [medium]"
+    "text": "Papers under review\n\nThe Limits of Partisan Motivated Reasoning in Congress (with Tevfik Murat Yildirim)\nSocial class and representation: The effects of socialization on MPs’ responsiveness (R&R)\n\nWorks in progress\n\nWho Sets the Agenda? Legislative Responsiveness to NGOs, Corporations and the Media SSRN\nYouth Suffrage and Legislative Responsiveness to Climate Change: Evidence from Scotland (with Tevfik Murat Yildirim)\nAre Women Representatives More Responsive to Women’s Issue Priorities?\n\nOther words\nAcademic:\n\nThesis Slide Presentation\n\nNon-academic:\n\nSo Hormonal. 2020. Monstrous Regiment Publishing. Horgan, E. and Dickson, Z. [link]\nWere women MPs more responsive to women’s priorities during the pandemic? [medium]"
   }
 ]
