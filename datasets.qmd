@@ -1,0 +1,70 @@
+---
+title: 'Data & ML'
+---
+
+
+
+
+# Language models 
+
+## [Facebook bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn) sequence-to-sequence model trained to summarise policy positions from party press releases
+   - [z-dickson/bart-large-cnn-climate-change-summarization](https://huggingface.co/z-dickson/bart-large-cnn-climate-change-summarization)
+ 
+ 
+<img src="assets/climate_change_party_positions_no_nuclear.png" alt="drawing" width="600" class="center"/>
+
+---
+
+## [Bert-base-multilingual-cased](https://huggingface.co/bert-base-multilingual-cased) Sentiment model trained on Polish, English, Spanish, Dutch and German Newspaper headlines.
+   - [z-dickson/multilingual_sentiment_newspaper_headlines](https://huggingface.co/z-dickson/multilingual_sentiment_newspaper_headlines)
+   
+<img src="assets/attention_to_borders_newspapers.png" alt="drawing" width="700" class="center"/>
+
+---
+
+
+## [Vinai/bertweet-large](https://huggingface.co/vinai/bertweet-large) model trained to predict opposition to COVID-19 policies from US congressmembers' tweets 
+   -  [z-dickson/US_politicians_covid_skepticism](https://huggingface.co/z-dickson/US_politicians_covid_skepticism)
+
+<img src="assets/infected_timeseries.png" alt="drawing" width="700" class="center"/>
+
+---
+   
+## [Bert-base-multilingual-cased](https://huggingface.co/bert-base-multilingual-cased) trained to predict the [CAP issue codes](https://www.comparativeagendas.net/pages/master-codebook) of political text (i.e. bills, speeches, tweets etc.)
+   - [z-dickson/CAP_multilingual](https://huggingface.co/z-dickson/CAP_multilingual)
+
+<img src="assets/confusion_matrix.png" alt="drawing" width="700" class="center"/>
+
+
+## Datasets 
+
+
+ + UK Parliamentary Statutory Instruments: 1970-2021 [[github](https://github.com/z-dickson/UK_statutory_instruments)]
+ + Parliamentary Bills - Dáil Éireann (Ireland): 1950-2020 [[github](https://github.com/z-dickson/parliamentary_bills)]
+ + Parliamentary Bills - New Zealand Parliament: 1900-2020 [[github](https://github.com/z-dickson/parliamentary_bills)]
+
+
+
+
+<br>
+<br>
+
+    
+::: {.column-page-inset .text-center}
+```{=html}
+<a class="btn btn-outline", href="https://twitter.com/sachary_" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-twitter" role='img' aria-label='Twitter'></i>
+</a>
+<a class="btn btn-outline", href="https://github.com/z-dickson/" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-github" role='img' aria-label='Github'></i>
+</a>
+<a class="btn btn-outline", href="https://www.linkedin.com/in/zachary-dickson-934b1381/" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-linkedin" role='img' aria-label='LinkedIn'></i>
+</a>
+<a class="btn btn-outline", href="mailto:z.dickson@lse.ac.uk" target="_blank" rel="noopener noreferrer">
+    <i class="ai bi-envelope" role='img' aria-label='email'></i>
+    </a>
+
+</a>
+```
+:::

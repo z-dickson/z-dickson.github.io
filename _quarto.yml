@@ -1,0 +1,27 @@
+project:
+  type: website
+sidebar:
+  contents:
+    - about.qmd
+website:
+  title: "About"
+  navbar: 
+    search: true
+    background: primary
+    left:
+      - href: research.qmd   
+        icon: 'vector-pen'
+      - href: datasets.qmd
+        icon: 'bar-chart-line'
+format:
+  html:
+    theme:
+      dark: darkly
+      light: flatly
+      
+    css: styles.css
+    toc: true
+    font-family: sans-serif
+
+
+
