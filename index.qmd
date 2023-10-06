@@ -1,0 +1,50 @@
+---
+title: 'Zachary Dickson'
+sidebar: false
+toc: true
+image: profile_orange.jpeg
+format:
+  html:
+    page-layout: full
+about:
+  image: profile_orange.jpeg
+  image-width: 15em
+  template: solana
+  image-shape: round
+---
+
+:::{#hero-heading}
+```{=html}
+
+
+
+<a class="btn btn-outline", href="https://twitter.com/sachary_" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-twitter" role='img' aria-label='Twitter'></i>
+</a>
+<a class="btn btn-outline", href="https://github.com/z-dickson/" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-github" role='img' aria-label='Github'></i>
+</a>
+<a class="btn btn-outline", href="https://www.linkedin.com/in/zachary-dickson-934b1381/" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-linkedin" role='img' aria-label='LinkedIn'></i>
+</a>
+<a class="btn btn-outline", href="mailto:z.dickson@lse.ac.uk" target="_blank" rel="noopener noreferrer">
+    <i class="ai bi-envelope" role='img' aria-label='email'></i>
+    </a>
+
+</a>
+```
+<br>
+I’m currently a postdoctoral research fellow at the<a href='https://www.lse.ac.uk/government/people/research-staff/zachary-dickson'> London School of Economics</a> on the<a href='https://sites.google.com/view/covideuproject/home'> COVIDEU project</a>. I'm also an affiliate at the <a href='https://www.lse.ac.uk/DSI'> LSE Data Science Institute</a>.
+ My research focuses on elites, representation and computational methods. You can find out more about some of my current research projects <a href='https://z-dickson.github.io/research.html'>here</a>.   
+<br>
+Prior to my PhD at the University of Glasgow, I earned a masters in international relations at the University of Edinburgh and a bachelor’s degree in political science at Northeastern Illinois University in my hometown of Chicago.
+
+A copy of my CV (which probably needs to be updated) can be downloaded [here](assets/dickson_CV.pdf)</a>.
+  
+
+:::
+
+<br>
+
+
+
