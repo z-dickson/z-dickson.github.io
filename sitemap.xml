@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://z-dickson.github.io/research.html</loc>
-    <lastmod>2023-10-21T13:24:12.506Z</lastmod>
+    <loc>https://z-dickson.github.io/home.html</loc>
+    <lastmod>2023-10-21T13:42:23.279Z</lastmod>
   </url>
   <url>
     <loc>https://z-dickson.github.io/index.html</loc>
-    <lastmod>2023-10-21T13:24:06.345Z</lastmod>
+    <lastmod>2023-10-21T13:42:15.107Z</lastmod>
   </url>
   <url>
     <loc>https://z-dickson.github.io/datasets.html</loc>
-    <lastmod>2023-10-21T13:24:06.145Z</lastmod>
+    <lastmod>2023-10-21T13:42:14.619Z</lastmod>
+  </url>
+  <url>
+    <loc>https://z-dickson.github.io/research.html</loc>
+    <lastmod>2023-10-21T13:42:14.915Z</lastmod>
   </url>
   <url>
     <loc>https://z-dickson.github.io/assets/newspaper_sentiment_attention_tutorial.html</loc>
-    <lastmod>2023-10-21T13:24:12.149Z</lastmod>
+    <lastmod>2023-10-21T13:42:22.943Z</lastmod>
   </url>
 </urlset>
