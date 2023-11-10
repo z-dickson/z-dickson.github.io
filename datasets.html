@@ -36,11 +36,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -64,11 +64,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="About - Data &amp; ML">
-<meta property="og:image" content="https://z-dickson.github.io/assets/climate_change_party_positions_no_nuclear.png">
-<meta property="og:site-name" content="About">
-<meta property="og:image:height" content="600">
-<meta property="og:image:width" content="950">
 </head>
 
 <body class="nav-fixed">
@@ -118,9 +113,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#language-models" id="toc-language-models" class="nav-link active" data-scroll-target="#language-models">Language models</a>
   <ul class="collapse">
   <li><a href="#facebook-bart-large-cnn-sequence-to-sequence-model-trained-to-summarise-policy-positions-from-party-press-releases" id="toc-facebook-bart-large-cnn-sequence-to-sequence-model-trained-to-summarise-policy-positions-from-party-press-releases" class="nav-link" data-scroll-target="#facebook-bart-large-cnn-sequence-to-sequence-model-trained-to-summarise-policy-positions-from-party-press-releases">Facebook bart-large-cnn sequence-to-sequence model trained to summarise policy positions from party press releases</a></li>
+  <li><a href="#bert-base-multilingual-cased-sentiment-model-trained-on-polish-english-spanish-dutch-and-german-newspaper-headlines." id="toc-bert-base-multilingual-cased-sentiment-model-trained-on-polish-english-spanish-dutch-and-german-newspaper-headlines." class="nav-link" data-scroll-target="#bert-base-multilingual-cased-sentiment-model-trained-on-polish-english-spanish-dutch-and-german-newspaper-headlines.">Bert-base-multilingual-cased Sentiment model trained on Polish, English, Spanish, Dutch and German Newspaper headlines.</a></li>
   <li><a href="#vinaibertweet-large-model-trained-to-predict-opposition-to-covid-19-policies-from-us-congressmembers-tweets" id="toc-vinaibertweet-large-model-trained-to-predict-opposition-to-covid-19-policies-from-us-congressmembers-tweets" class="nav-link" data-scroll-target="#vinaibertweet-large-model-trained-to-predict-opposition-to-covid-19-policies-from-us-congressmembers-tweets">Vinai/bertweet-large model trained to predict opposition to COVID-19 policies from US congressmembers’ tweets</a></li>
   <li><a href="#bert-base-multilingual-cased-trained-to-predict-the-cap-issue-codes-of-political-text-i.e.-bills-speeches-tweets-etc." id="toc-bert-base-multilingual-cased-trained-to-predict-the-cap-issue-codes-of-political-text-i.e.-bills-speeches-tweets-etc." class="nav-link" data-scroll-target="#bert-base-multilingual-cased-trained-to-predict-the-cap-issue-codes-of-political-text-i.e.-bills-speeches-tweets-etc.">Bert-base-multilingual-cased trained to predict the CAP issue codes of political text (i.e.&nbsp;bills, speeches, tweets etc.)</a></li>
-  <li><a href="#bert-base-multilingual-cased-sentiment-model-trained-on-polish-english-spanish-dutch-and-german-newspaper-headlines." id="toc-bert-base-multilingual-cased-sentiment-model-trained-on-polish-english-spanish-dutch-and-german-newspaper-headlines." class="nav-link" data-scroll-target="#bert-base-multilingual-cased-sentiment-model-trained-on-polish-english-spanish-dutch-and-german-newspaper-headlines.">Bert-base-multilingual-cased Sentiment model trained on Polish, English, Spanish, Dutch and German Newspaper headlines.</a></li>
   <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">Datasets</a></li>
   </ul></li>
   </ul>
@@ -154,21 +149,6 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://huggingface.co/z-dickson/bart-large-cnn-climate-change-summarization">z-dickson/bart-large-cnn-climate-change-summarization</a></li>
 </ul>
 <p><img src="assets/climate_change_party_positions_no_nuclear.png" alt="drawing" width="600" class="center"></p>
-</section>
-<section id="vinaibertweet-large-model-trained-to-predict-opposition-to-covid-19-policies-from-us-congressmembers-tweets" class="level2">
-<h2 class="anchored" data-anchor-id="vinaibertweet-large-model-trained-to-predict-opposition-to-covid-19-policies-from-us-congressmembers-tweets"><a href="https://huggingface.co/vinai/bertweet-large">Vinai/bertweet-large</a> model trained to predict opposition to COVID-19 policies from US congressmembers’ tweets</h2>
-<ul>
-<li><a href="https://huggingface.co/z-dickson/US_politicians_covid_skepticism">z-dickson/US_politicians_covid_skepticism</a></li>
-</ul>
-<p><img src="assets/infected_timeseries.png" alt="drawing" width="600" class="center"></p>
-<hr>
-</section>
-<section id="bert-base-multilingual-cased-trained-to-predict-the-cap-issue-codes-of-political-text-i.e.-bills-speeches-tweets-etc." class="level2">
-<h2 class="anchored" data-anchor-id="bert-base-multilingual-cased-trained-to-predict-the-cap-issue-codes-of-political-text-i.e.-bills-speeches-tweets-etc."><a href="https://huggingface.co/bert-base-multilingual-cased">Bert-base-multilingual-cased</a> trained to predict the <a href="https://www.comparativeagendas.net/pages/master-codebook">CAP issue codes</a> of political text (i.e.&nbsp;bills, speeches, tweets etc.)</h2>
-<ul>
-<li><a href="https://huggingface.co/z-dickson/CAP_multilingual">z-dickson/CAP_multilingual</a></li>
-</ul>
-<p><img src="assets/confusion_matrix.png" alt="drawing" width="600" class="center"></p>
 <hr>
 </section>
 <section id="bert-base-multilingual-cased-sentiment-model-trained-on-polish-english-spanish-dutch-and-german-newspaper-headlines." class="level2">
@@ -176,13 +156,27 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="https://huggingface.co/z-dickson/multilingual_sentiment_newspaper_headlines">z-dickson/multilingual_sentiment_newspaper_headlines</a></li>
 </ul>
-<p><img src="assets/dynamic_sentiment.png" alt="drawing" width="700" class="center"></p>
+<p><img src="assets/attention_to_borders_newspapers.png" alt="drawing" width="700" class="center"></p>
 <hr>
+</section>
+<section id="vinaibertweet-large-model-trained-to-predict-opposition-to-covid-19-policies-from-us-congressmembers-tweets" class="level2">
+<h2 class="anchored" data-anchor-id="vinaibertweet-large-model-trained-to-predict-opposition-to-covid-19-policies-from-us-congressmembers-tweets"><a href="https://huggingface.co/vinai/bertweet-large">Vinai/bertweet-large</a> model trained to predict opposition to COVID-19 policies from US congressmembers’ tweets</h2>
+<ul>
+<li><a href="https://huggingface.co/z-dickson/US_politicians_covid_skepticism">z-dickson/US_politicians_covid_skepticism</a></li>
+</ul>
+<p><img src="assets/infected_timeseries.png" alt="drawing" width="700" class="center"></p>
+<hr>
+</section>
+<section id="bert-base-multilingual-cased-trained-to-predict-the-cap-issue-codes-of-political-text-i.e.-bills-speeches-tweets-etc." class="level2">
+<h2 class="anchored" data-anchor-id="bert-base-multilingual-cased-trained-to-predict-the-cap-issue-codes-of-political-text-i.e.-bills-speeches-tweets-etc."><a href="https://huggingface.co/bert-base-multilingual-cased">Bert-base-multilingual-cased</a> trained to predict the <a href="https://www.comparativeagendas.net/pages/master-codebook">CAP issue codes</a> of political text (i.e.&nbsp;bills, speeches, tweets etc.)</h2>
+<ul>
+<li><a href="https://huggingface.co/z-dickson/CAP_multilingual">z-dickson/CAP_multilingual</a></li>
+</ul>
+<p><img src="assets/confusion_matrix.png" alt="drawing" width="700" class="center"></p>
 </section>
 <section id="datasets" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
 <ul>
-<li>~2 million newspaper headlines from Pl, DE, UK, ES &amp; NL 2020-2022: [<a href="https://www.dropbox.com/scl/fi/lui8io9q1psbpcf348yt7/newspaper_data_all.csv?rlkey=a27kcu0bvy3yi9v7ajxlkdwmp&amp;dl=0">dropbox</a>]</li>
 <li>UK Parliamentary Statutory Instruments: 1970-2021 [<a href="https://github.com/z-dickson/UK_statutory_instruments">github</a>]</li>
 <li>Parliamentary Bills - Dáil Éireann (Ireland): 1950-2020 [<a href="https://github.com/z-dickson/parliamentary_bills">github</a>]</li>
 <li>Parliamentary Bills - New Zealand Parliament: 1900-2020 [<a href="https://github.com/z-dickson/parliamentary_bills">github</a>]</li>
@@ -319,7 +313,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  let localAlternateSentinel = 'alternate';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
