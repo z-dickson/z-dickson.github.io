@@ -36,11 +36,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -115,8 +115,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#language-models" id="toc-language-models" class="nav-link active" data-scroll-target="#language-models">Language models</a></li>
-  <li><a href="#machine-learning" id="toc-machine-learning" class="nav-link" data-scroll-target="#machine-learning">Machine Learning</a></li>
+  <li><a href="#lecture-slides" id="toc-lecture-slides" class="nav-link active" data-scroll-target="#lecture-slides">Lecture Slides</a></li>
+  <li><a href="#notebooks" id="toc-notebooks" class="nav-link" data-scroll-target="#notebooks">Notebooks</a></li>
   </ul>
 </nav>
     </div>
@@ -140,16 +140,17 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="language-models" class="level1">
-<h1>Language models</h1>
+<section id="lecture-slides" class="level2">
+<h2 class="anchored" data-anchor-id="lecture-slides">Lecture Slides</h2>
 <ul>
+<li><a href="assets/ML_in_social_science.html">Machine Learning in the Social Sciences</a></li>
 <li><a href="assets/applied_LLMs.html">Applied LLMs</a></li>
 </ul>
 </section>
-<section id="machine-learning" class="level1 page-columns page-full">
-<h1>Machine Learning</h1>
+<section id="notebooks" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="notebooks">Notebooks</h2>
 <ul>
-<li><a href="assets/ML_in_social_science.html">Machine Learning in the Social Sciences</a></li>
+<li><a href="https://colab.research.google.com/drive/1No_V3BzhWim9Zp1xfl6bfiiIYSoPwz9y?usp=sharing">Applied LLMs</a> (Google Colab)</li>
 </ul>
 <p><br> <br></p>
 <div class="column-page-inset text-center">
@@ -282,7 +283,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'alternate';
+  let localAlternateSentinel = 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
