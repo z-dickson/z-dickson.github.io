@@ -1,1 +1,107 @@
 /* css styles */
+
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/* styles.css */
+
+/* Change the color of hyperlinks */
+a {
+    color: rgb(93, 160, 190); /* Change to the desired color */
+}
+
+/* Change the color of visited hyperlinks */
+a:visited {
+    color: rgb(93, 160, 190); /* Change to the desired color */
+}
+
+/* Change the color of hyperlinks on hover */
+a:hover {
+    color: rgb(150, 35, 35); /* Change to the desired color */
+}
+
+
+
+/* styles.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/* Specify Font Family */
+body {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font for the entire website */
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif; /* Use Roboto font for headings */
+}
+
+p {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font for paragraphs */
+}
+
+/* Additional styling goes here */
+
+
+/* styles.css */
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer; /* Change cursor to pointer to indicate clickable */
+  }
+  
+  /* Position the dropdown arrow to the right */
+  .dropbtn::after {
+    content: '\25BC'; /* Unicode character for a downward-pointing triangle */
+    font-size: 0.8em; /* Adjust size as needed */
+    margin-left: 5px; /* Adjust spacing between text and arrow */
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
