@@ -115,6 +115,11 @@ p {
   }
   
 
-  /* styles.css */
+ /* Left-align text on the About page in mobile view */
+@media (max-width: 767px) {
+  .container {
+      text-align: left;
+  }
+}
 
 
