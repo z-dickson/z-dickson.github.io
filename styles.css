@@ -68,6 +68,15 @@ p {
     font-family: 'Roboto', sans-serif; /* Use Roboto font for paragraphs */
 }
 
+/* Specify Font Family for Navigation Menu */
+.navbar-nav li a {
+    font-family: 'Roboto', sans-serif; /* Use your desired font family */
+    /* make font thinner */
+    font-weight: 400;
+}
+
+/* Additional styling goes here */
+
 /* Additional styling goes here */
 
 
@@ -105,3 +114,7 @@ p {
     display: block;
   }
   
+
+  /* styles.css */
+
+
