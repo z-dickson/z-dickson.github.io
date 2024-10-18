@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://z-dickson.github.io/research.html</loc>
-    <lastmod>2024-09-28T08:59:09.866Z</lastmod>
-  </url>
-  <url>
     <loc>https://z-dickson.github.io/datasets.html</loc>
-    <lastmod>2024-06-28T08:40:20.802Z</lastmod>
+    <lastmod>2024-10-18T16:28:45.383Z</lastmod>
   </url>
   <url>
     <loc>https://z-dickson.github.io/teaching.html</loc>
-    <lastmod>2024-06-28T08:40:15.454Z</lastmod>
+    <lastmod>2024-10-18T16:26:10.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://z-dickson.github.io/research.html</loc>
+    <lastmod>2024-09-28T08:59:09.000Z</lastmod>
   </url>
   <url>
     <loc>https://z-dickson.github.io/index.html</loc>
-    <lastmod>2024-08-13T08:21:47.738Z</lastmod>
+    <lastmod>2024-08-13T08:21:47.000Z</lastmod>
   </url>
 </urlset>
