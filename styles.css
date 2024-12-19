@@ -4,55 +4,6 @@ html[data-theme="light"] {
 }
 
 
-.btn {
-  display: inline-block;
-  padding: 5px 10px; /* Smaller padding for a sleeker look */
-  font-size: 14px; /* Smaller font size */
-  color: #fff; /* White text */
-  text-decoration: none; /* Remove underline */
-  border: 1px solid transparent; /* Add a subtle border */
-  border-radius: 4px; /* Slightly rounded corners for a geometric feel */
-  transition: all 0.2s ease-in-out; /* Smooth hover transition */
-}
-
-.btn-primary {
-  background-color: #007bff; /* Blue */
-  border-color: #007bff;
-}
-
-.btn-secondary {
-  background-color: #6c757d; /* Gray */
-  border-color: #6c757d;
-}
-
-.btn-info {
-  background-color: #17a2b8; /* Cyan */
-  border-color: #17a2b8;
-}
-
-.btn:hover {
-  background-color: #fff; /* Hover effect: white background */
-  color: #000; /* Black text on hover */
-  border-color: currentColor; /* Visible border on hover */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Style the dropdown button */
 .dropbtn {
     background-color: rgb(184, 178, 178);
