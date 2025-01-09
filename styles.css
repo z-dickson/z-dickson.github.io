@@ -1,14 +1,4 @@
-/* Remove borders around icons */
-.links a img {
-    border: none;
-    box-shadow: none;
-    outline: none;
-}
 
-/* Optional: Remove underline effect on icons inside links */
-.links a {
-    text-decoration: none;
-}
 
 /* Set all hyperlinks to dark blue */
 a {
@@ -20,4 +10,41 @@ a {
 a:hover {
     color: #002266; /* Even darker blue when hovered */
     text-decoration: underline; /* Underline on hover (optional) */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Remove borders, shadows, and outlines from all links */
+.icons a {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    text-decoration: none !important; /* Ensures no underline */
+    background: transparent !important; /* Removes any background styling */
+}
+
+/* Style the icons inside links */
+.icons a svg, 
+.icons a img {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    width: 24px; /* Adjust icon size if needed */
+    height: 24px;
+}
+
+/* Optional: Change color on hover */
+.icons a:hover svg {
+    color: #0056b3 !important; /* Darker blue on hover */
 }

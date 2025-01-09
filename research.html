@@ -4726,15 +4726,6 @@ vertical-align: -.125em;
 
 
 <style type="text/css">
-.links a img {
-border: none;
-box-shadow: none;
-outline: none;
-}
-
-.links a {
-text-decoration: none;
-}
 
 a {
 color: #004466; 
@@ -4744,10 +4735,30 @@ text-decoration: none;
 a:hover {
 color: #002266; 
 text-decoration: underline; 
+}
+
+.icons a {
+border: none !important;
+box-shadow: none !important;
+outline: none !important;
+text-decoration: none !important; 
+background: transparent !important; 
+}
+
+.icons a svg, .icons a img {
+border: none !important;
+box-shadow: none !important;
+outline: none !important;
+width: 24px; 
+height: 24px;
+}
+
+.icons a:hover svg {
+color: #0056b3 !important; 
 }</style>
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -4784,10 +4795,23 @@ text-decoration: underline;
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
