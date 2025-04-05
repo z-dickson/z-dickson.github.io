@@ -48,3 +48,37 @@ a:hover {
 .icons a:hover svg {
     color: #0056b3 !important; /* Darker blue on hover */
 }
+
+
+
+
+.publication-entry {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    gap: 0.5rem; /* reduce from 1rem or larger to move image closer */
+  }
+  
+  .journal-cover {
+    width: 80px;
+    margin-right: 0.5rem; /* optional: add this if you prefer using margin over gap */
+  }
+
+
+
+
+
+
+ 
+  .pub-details {
+    flex-grow: 1;
+  }
+  
+  .pub-details button {
+    margin: 0.25rem 0.25rem 0 0;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
