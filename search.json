@@ -4,7 +4,14 @@
     "href": "teaching.html",
     "title": "Teaching\n",
     "section": "",
-    "text": "2020: Introduction to Politics (Undergraduate - University of Glasgow)\n2021: Comparative Politics (Undergraduate - University of Glasgow)\n2021: Politics: Decision Making & Outcomes (Undergraduate - University of Strathclyde)\n2022: Quantitative Methods 1: Statistics & Analysis (Undergraduate - University of Strathclyde)\n2022: Quantitative Methods 2: Statistics & Analysis (Undergraduate - University of Strathclyde)\n2022: Machine Learning for Data Analytics (Graduate - University of Strathclyde)\n2024: Fundamentals of Research Design (MSc - LSE)\n\n Slides\n\n2025: Data Science Applications to Politics Research (Undergrad - LSE)\n\nWebsite"
+    "text": "Introduction to Politics (Undergraduate - University of Glasgow - 2020)\nComparative Politics (Undergraduate - University of Glasgow - 2021)\nPolitics: Decision Making & Outcomes (Undergraduate - University of Strathclyde - 2021)\nQuantitative Methods 1: Statistics & Analysis (Undergraduate - University of Strathclyde - 2022)\nQuantitative Methods 2: Statistics & Analysis (Undergraduate - University of Strathclyde - 2022)\nMachine Learning for Data Analytics (MSc - University of Strathclyde - 2022)\nFundamentals of Research Design (MSc - LSE - 2024)\nData Science Applications to Politics Research (Undergrad - LSE - 2025)"
+  },
+  {
+    "objectID": "teaching.html#phd-workshops",
+    "href": "teaching.html#phd-workshops",
+    "title": "Teaching\n",
+    "section": "PhD Workshops",
+    "text": "PhD Workshops\n\n2025: Applied Language Models for Social Science Research ( Github)\n\nFive-hour workshop on the application of language models to social science research aimed at graduate students and researchers with prior experience in Python and basic machine learning.\n\n2025: Causal Inference Using Observational Data ( Github)\n\nFive-hour workshop intended to provide an introduction to causal inference methods for observational data. Workshop is geared towards graduate students and researchers with prior experience in statistics and coding in R."
   },
   {
     "objectID": "teaching.html#invited-talks-lectures",
