@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "datasets.html",
-    "href": "datasets.html",
-    "title": "Language Models\n",
-    "section": "",
-    "text": "LLM available at: z-dickson/bart-large-cnn-climate-change-summarization"
-  },
-  {
-    "objectID": "datasets.html#datasets",
-    "href": "datasets.html#datasets",
-    "title": "Language Models\n",
-    "section": "Datasets",
-    "text": "Datasets\n\nUK Parliamentary Statutory Instruments: 1970-2021 [github]\nParliamentary Bills - Dáil Éireann (Ireland): 1950-2020 [github]\nParliamentary Bills - New Zealand Parliament: 1900-2020 [github]"
-  },
-  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching\n",
@@ -33,6 +19,20 @@
     "title": "Teaching\n",
     "section": "Invited Talks & Lectures",
     "text": "Invited Talks & Lectures\n\n2024 LSE Department of Methodology Seminar Series\n\n Slides\n\n2023 LSE Department of Government Seminar Series\n\n Slides\n\nMachine Learning in the Social Sciences (LSE 2023)\n\n Slides\n\nApplied LLMs in the Social Sciences (LSE 2023)\n\n Slides\n Google Colab Notebook"
+  },
+  {
+    "objectID": "datasets.html",
+    "href": "datasets.html",
+    "title": "Language Models\n",
+    "section": "",
+    "text": "LLM available at: z-dickson/bart-large-cnn-climate-change-summarization"
+  },
+  {
+    "objectID": "datasets.html#datasets",
+    "href": "datasets.html#datasets",
+    "title": "Language Models\n",
+    "section": "Datasets",
+    "text": "Datasets\n\nUK Parliamentary Statutory Instruments: 1970-2021 [github]\nParliamentary Bills - Dáil Éireann (Ireland): 1950-2020 [github]\nParliamentary Bills - New Zealand Parliament: 1900-2020 [github]"
   },
   {
     "objectID": "research.html",
