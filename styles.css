@@ -1,23 +1,24 @@
-
-/* Make social links small, inline, and icon-like */
+/* Make social links small, horizontal, and icon-like */
 .about-links {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.5rem; /* space between icons */
+  display: flex;               /* line them up in a row */
+  justify-content: center;     /* center under your picture */
+  flex-wrap: wrap;             /* wrap into multiple rows if needed on small screens */
+  gap: 0.5rem;                 /* space between icons */
   margin-top: 0.5rem;
+  padding: 0;                  /* reset spacing */
 }
 
 .about-links a {
-  display: inline-flex;
+  display: inline-flex;        /* keep them inline inside flex row */
   align-items: center;
   justify-content: center;
-  padding: 0.25rem;        /* reduce padding */
-  border: none !important; /* remove button look */
+  padding: 0.25rem;            /* reduce padding */
+  border: none !important;     /* remove button look */
   background: none !important;
   box-shadow: none !important;
-  font-size: 1.5rem;       /* control icon size */
+  font-size: 1.5rem;           /* control icon size */
   line-height: 1;
+  text-decoration: none;
 }
 
 .about-links a:hover {
@@ -25,50 +26,13 @@
   transition: transform 0.2s ease;
 }
 
-/* Optional: make them a bit smaller on very narrow screens */
+/* Slightly shrink on very small screens */
 @media (max-width: 480px) {
   .about-links a {
     font-size: 1.3rem;
     padding: 0.2rem;
   }
 }
-
-
-
-
-/* Container for the social links */
-.about-links {
-  display: flex;              /* line them up horizontally */
-  justify-content: center;    /* center under your picture */
-  flex-wrap: wrap;            /* wrap if screen is very narrow */
-  gap: 0.75rem;               /* space between icons */
-  margin-top: 0.5rem;
-  padding: 0;                 /* reset spacing */
-}
-
-/* Each link should only take up icon space */
-.about-links a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.25rem;
-  border: none !important;
-  background: none !important;
-  box-shadow: none !important;
-  font-size: 1.5rem;          /* icon size */
-  line-height: 1;
-  text-decoration: none;
-}
-
-/* Optional hover effect */
-.about-links a:hover {
-  transform: scale(1.1);
-  transition: transform 0.2s ease;
-}
-
-
-
-
 
 
 
