@@ -1,39 +1,54 @@
-/* Make social links small, horizontal, and icon-like */
+/* ---- About links: small, horizontal, icon-only ---- */
 .about-links {
-  display: flex;               /* line them up in a row */
-  justify-content: center;     /* center under your picture */
-  flex-wrap: wrap;             /* wrap into multiple rows if needed on small screens */
-  gap: 0.5rem;                 /* space between icons */
+  display: flex !important;         /* force horizontal layout */
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;                   /* wrap if the phone is tiny */
+  gap: 0.5rem;
   margin-top: 0.5rem;
-  padding: 0;                  /* reset spacing */
+  padding: 0;
 }
 
-.about-links a {
-  display: inline-flex;        /* keep them inline inside flex row */
+/* Some templates wrap anchors in <p> or <li>; neutralize those */
+.about-links > p,
+.about-links > li,
+.about-links > span {
+  margin: 0;
+  list-style: none;
+  display: contents;                 /* let the <a> participate in the flex row */
+}
+
+/* Hit the actual anchors (including Bootstrap .btn) with higher specificity */
+.about-links a,
+.about-links a.btn {
+  display: inline-flex !important;   /* beat Bootstrap's display rules */
+  width: auto !important;            /* avoid full-width buttons */
   align-items: center;
   justify-content: center;
-  padding: 0.25rem;            /* reduce padding */
-  border: none !important;     /* remove button look */
+  padding: 0.25rem !important;       /* small click target */
+  border: none !important;           /* remove button look */
   background: none !important;
   box-shadow: none !important;
-  font-size: 1.5rem;           /* control icon size */
-  line-height: 1;
   text-decoration: none;
+  line-height: 1;
+  font-size: 1.5rem;                 /* icon size */
 }
 
+/* Hover effect (optional) */
 .about-links a:hover {
   transform: scale(1.1);
   transition: transform 0.2s ease;
 }
 
-/* Slightly shrink on very small screens */
+/* Slightly smaller on very narrow screens */
 @media (max-width: 480px) {
-  .about-links a {
+  .about-links a,
+  .about-links a.btn {
     font-size: 1.3rem;
-    padding: 0.2rem;
+    padding: 0.2rem !important;
   }
 }
-
 
 
 
