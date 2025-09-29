@@ -1,56 +1,3 @@
-/* ---- About links: small, horizontal, icon-only ---- */
-.about-links {
-  display: flex !important;         /* force horizontal layout */
-  flex-direction: row !important;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;                   /* wrap if the phone is tiny */
-  gap: 0.5rem;
-  margin-top: 0.5rem;
-  padding: 0;
-}
-
-/* Some templates wrap anchors in <p> or <li>; neutralize those */
-.about-links > p,
-.about-links > li,
-.about-links > span {
-  margin: 0;
-  list-style: none;
-  display: contents;                 /* let the <a> participate in the flex row */
-}
-
-/* Hit the actual anchors (including Bootstrap .btn) with higher specificity */
-.about-links a,
-.about-links a.btn {
-  display: inline-flex !important;   /* beat Bootstrap's display rules */
-  width: auto !important;            /* avoid full-width buttons */
-  align-items: center;
-  justify-content: center;
-  padding: 0.25rem !important;       /* small click target */
-  border: none !important;           /* remove button look */
-  background: none !important;
-  box-shadow: none !important;
-  text-decoration: none;
-  line-height: 1;
-  font-size: 1.5rem;                 /* icon size */
-}
-
-/* Hover effect (optional) */
-.about-links a:hover {
-  transform: scale(1.1);
-  transition: transform 0.2s ease;
-}
-
-/* Slightly smaller on very narrow screens */
-@media (max-width: 480px) {
-  .about-links a,
-  .about-links a.btn {
-    font-size: 1.3rem;
-    padding: 0.2rem !important;
-  }
-}
-
-
 
 
 
@@ -139,3 +86,84 @@ a:hover {
     background-color: #f9f9f9;
     cursor: pointer;
   }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* ===== Force social icons into a horizontal row (trestles/quarto-safe) ===== */
+
+/* Cover common containers Quarto/trestles use */
+.about-links,
+.quarto-about .about-links,
+.quarto-about-link-list,
+.about-entity .about-links,
+.about-contents .about-links {
+  display: flex !important;          /* make it a row */
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: wrap;                    /* wrap on tiny phones */
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  padding: 0;
+}
+
+/* If Quarto outputs a UL around the links, make that flex too */
+.about-links ul {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Neutralize wrappers (p/li/span/div) that force line breaks */
+.about-links > p,
+.about-links > li,
+.about-links > span,
+.about-links > div,
+.about-links li {
+  margin: 0 !important;
+  display: contents !important;      /* let anchors participate in flex row */
+}
+
+/* Hit the anchors directly, including Bootstrap-styled buttons */
+.about-links a,
+.about-links a.btn,
+.about-links .btn {
+  display: inline-flex !important;   /* override block/btn rules */
+  width: auto !important;            /* prevent full-width buttons */
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem !important;       /* small click target */
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  line-height: 1;
+  font-size: 1.5rem;                 /* icon size */
+}
+
+/* Hover (optional) */
+.about-links a:hover,
+.about-links .btn:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+/* Slightly smaller on very narrow screens */
+@media (max-width: 480px) {
+  .about-links a,
+  .about-links .btn {
+    font-size: 1.3rem;
+    padding: 0.2rem !important;
+  }
+}
+
