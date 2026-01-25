@@ -1,169 +1,286 @@
+/* Import formal serif font */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
+/* Dark theme foundation */
+body {
+    background-color: #1e1e1e !important;
+    color: #e8e8e8 !important;
+    font-family: "Crimson Text", Georgia, "Times New Roman", serif !important;
+    font-size: 1.05rem;
+    line-height: 1.65;
+}
 
+/* Main content area */
+.quarto-body-content,
+main.content,
+#quarto-content {
+    background-color: #1e1e1e !important;
+}
 
+/* Navbar styling */
+.navbar {
+    background-color: #141414 !important;
+    border-bottom: 1px solid #333333;
+}
 
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #c9c9d9 !important;
+    font-family: "Crimson Text", Georgia, serif !important;
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+}
 
+.navbar-nav .nav-link:hover {
+    color: #7eb8da !important;
+}
 
-/* Set all hyperlinks to dark blue */
+/* Hyperlinks - muted blue for dark theme */
 a {
-    color: #004466; /* Dark blue */
-    text-decoration: none; /* Removes underline (optional) */
+    color: #7eb8da;
+    text-decoration: none;
+    transition: color 0.2s ease;
 }
 
-/* Add hover effect for better UX */
 a:hover {
-    color: #002266; /* Even darker blue when hovered */
-    text-decoration: underline; /* Underline on hover (optional) */
+    color: #a8d4f0;
+    text-decoration: underline;
 }
 
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #e8e8e8 !important;
+    font-family: "Crimson Text", Georgia, serif !important;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
 
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.4rem; margin-top: 2rem; border-bottom: 1px solid #333333; padding-bottom: 0.5rem; }
+h3 { font-size: 1.2rem; }
+h4 { font-size: 1.1rem; }
+h5 { font-size: 1rem; }
 
+/* About page styling */
+.about-entity,
+.about-contents,
+.about-image-container,
+.quarto-about-trestles,
+.quarto-about-trestles .about-entity,
+#quarto-content .about-entity {
+    background-color: #1e1e1e !important;
+}
 
+.about-link {
+    background-color: transparent !important;
+    border: 1px solid #444444 !important;
+    color: #c9c9d9 !important;
+    font-size: 0.85rem !important;
+}
 
+.about-link:hover {
+    background-color: #333333 !important;
+    color: #7eb8da !important;
+}
 
+/* Profile image */
+.about-image {
+    border: 3px solid #444444 !important;
+}
 
+/* Trestles template specific */
+.quarto-about-trestles .about-entity .about-links {
+    background-color: #1e1e1e !important;
+}
 
+.column-page,
+.column-body,
+.column-page-left {
+    background-color: #1e1e1e !important;
+}
 
+/* Horizontal rule styling */
+hr {
+    border-color: #444444;
+    opacity: 0.5;
+}
 
-
-
-
-
-/* Remove borders, shadows, and outlines from all links */
-.icons a {
+/* Icon links - remove borders and shadows */
+.icons a,
+.about-links a {
     border: none !important;
     box-shadow: none !important;
     outline: none !important;
-    text-decoration: none !important; /* Ensures no underline */
-    background: transparent !important; /* Removes any background styling */
+    text-decoration: none !important;
+    background: transparent !important;
 }
 
-/* Style the icons inside links */
-.icons a svg, 
-.icons a img {
+.icons a svg,
+.icons a img,
+.about-links a svg {
     border: none !important;
     box-shadow: none !important;
     outline: none !important;
-    width: 24px; /* Adjust icon size if needed */
-    height: 24px;
+    width: 22px;
+    height: 22px;
 }
 
-/* Optional: Change color on hover */
-.icons a:hover svg {
-    color: #0056b3 !important; /* Darker blue on hover */
+.icons a:hover svg,
+.about-links a:hover {
+    color: #7eb8da !important;
+    opacity: 0.8;
 }
 
-
-
-
+/* Publication entry styling */
 .publication-entry {
     display: flex;
     align-items: flex-start;
     margin-bottom: 2rem;
-    gap: 0.5rem; /* reduce from 1rem or larger to move image closer */
-  }
-  
-  .journal-cover {
-    width: 80px;
-    margin-right: 0.5rem; /* optional: add this if you prefer using margin over gap */
-  }
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: #252525;
+    border-radius: 4px;
+    border-left: 3px solid #444444;
+}
 
+.journal-cover {
+    width: 70px;
+    margin-right: 0.5rem;
+    border-radius: 2px;
+    opacity: 0.9;
+}
 
-
-
-
-
- 
-  .pub-details {
+.pub-details {
     flex-grow: 1;
-  }
-  
-  .pub-details button {
+}
+
+.pub-details button {
     margin: 0.25rem 0.25rem 0 0;
     padding: 0.3rem 0.6rem;
-    font-size: 0.9rem;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
+    font-size: 0.8rem;
+    border: 1px solid #444444;
+    background-color: #333333;
+    color: #c9c9d9;
     cursor: pointer;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /* ===== Force social icons into a horizontal row (trestles/quarto-safe) ===== */
-
-/* Cover common containers Quarto/trestles use */
-.about-links,
-.quarto-about .about-links,
-.quarto-about-link-list,
-.about-entity .about-links,
-.about-contents .about-links {
-  display: flex !important;          /* make it a row */
-  flex-direction: row !important;
-  justify-content: center !important;
-  align-items: center !important;
-  flex-wrap: wrap;                    /* wrap on tiny phones */
-  gap: 0.5rem;
-  margin-top: 0.5rem;
-  padding: 0;
+    border-radius: 3px;
 }
 
-/* If Quarto outputs a UL around the links, make that flex too */
-.about-links ul {
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.pub-details button:hover {
+    background-color: #444444;
 }
 
-/* Neutralize wrappers (p/li/span/div) that force line breaks */
-.about-links > p,
-.about-links > li,
-.about-links > span,
-.about-links > div,
-.about-links li {
-  margin: 0 !important;
-  display: contents !important;      /* let anchors participate in flex row */
+/* Sidebar / TOC styling */
+.sidebar,
+.sidebar-navigation,
+#quarto-sidebar {
+    background-color: #141414 !important;
+    border-right: 1px solid #333333;
 }
 
-/* Hit the anchors directly, including Bootstrap-styled buttons */
-.about-links a,
-.about-links a.btn,
-.about-links .btn {
-  display: inline-flex !important;   /* override block/btn rules */
-  width: auto !important;            /* prevent full-width buttons */
-  align-items: center;
-  justify-content: center;
-  padding: 0.25rem !important;       /* small click target */
-  border: none !important;
-  background: none !important;
-  box-shadow: none !important;
-  text-decoration: none !important;
-  line-height: 1;
-  font-size: 1.5rem;                 /* icon size */
+.sidebar-item-text,
+.sidebar a {
+    color: #c9c9d9 !important;
+    font-size: 0.85rem;
 }
 
-/* Hover (optional) */
-.about-links a:hover,
-.about-links .btn:hover {
-  transform: scale(1.1);
-  transition: transform 0.2s ease;
+/* Code blocks */
+pre, code {
+    background-color: #141414 !important;
+    color: #c9c9d9 !important;
+    border: 1px solid #333333;
+    border-radius: 3px;
+    font-size: 0.85rem;
 }
 
-/* Slightly smaller on very narrow screens */
-@media (max-width: 480px) {
-  .about-links a,
-  .about-links .btn {
-    font-size: 1.3rem;
-    padding: 0.2rem !important;
-  }
+/* Emphasis styling */
+em, i {
+    color: #b8b8c8;
 }
 
+strong, b {
+    color: #e8e8e8;
+    font-weight: 600;
+}
+
+/* Details/summary elements */
+details {
+    background-color: #252525;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+}
+
+summary {
+    cursor: pointer;
+    color: #7eb8da;
+    font-size: 0.9rem;
+}
+
+/* Images */
+img.center {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 4px;
+}
+
+/* Lists */
+ul, ol {
+    color: #d8d8e8;
+}
+
+li {
+    margin-bottom: 0.3rem;
+}
+
+/* Section dividers */
+.section-header {
+    color: #7eb8da;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: 1rem;
+    color: #d8d8e8;
+}
+
+/* Footer */
+.nav-footer {
+    background-color: #141414 !important;
+    border-top: 1px solid #333333;
+}
+
+/* Search */
+.aa-DetachedSearchButton {
+    background-color: #333333 !important;
+    border-color: #444444 !important;
+}
+
+/* Quarto specific overrides */
+.quarto-title {
+    color: #e8e8e8 !important;
+}
+
+.quarto-title-meta-contents {
+    color: #b8b8c8 !important;
+}
+
+/* Card styling for any card elements */
+.card {
+    background-color: #252525 !important;
+    border: 1px solid #333333 !important;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 3px solid #444444;
+    padding-left: 1rem;
+    color: #b8b8c8;
+    font-style: italic;
+}

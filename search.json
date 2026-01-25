@@ -2,50 +2,99 @@
   {
     "objectID": "teaching.html",
     "href": "teaching.html",
-    "title": "Teaching\n",
+    "title": "Teaching",
+    "section": "",
+    "text": "Introduction to Politics (Undergraduate - University of Glasgow - 2020)\nComparative Politics (Undergraduate - University of Glasgow - 2021)\nPolitics: Decision Making & Outcomes (Undergraduate - University of Strathclyde - 2021)\nQuantitative Methods 1: Statistics & Analysis (Undergraduate - University of Strathclyde - 2022)\nQuantitative Methods 2: Statistics & Analysis (Undergraduate - University of Strathclyde - 2022)\nMachine Learning for Data Analytics (MSc - University of Strathclyde - 2022)\nFundamentals of Research Design (MSc - LSE - 2024)\nData Science Applications to Politics Research (Undergraduate - LSE - 2025)"
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
     "section": "",
     "text": "Introduction to Politics (Undergraduate - University of Glasgow - 2020)\nComparative Politics (Undergraduate - University of Glasgow - 2021)\nPolitics: Decision Making & Outcomes (Undergraduate - University of Strathclyde - 2021)\nQuantitative Methods 1: Statistics & Analysis (Undergraduate - University of Strathclyde - 2022)\nQuantitative Methods 2: Statistics & Analysis (Undergraduate - University of Strathclyde - 2022)\nMachine Learning for Data Analytics (MSc - University of Strathclyde - 2022)\nFundamentals of Research Design (MSc - LSE - 2024)\nData Science Applications to Politics Research (Undergraduate - LSE - 2025)"
   },
   {
     "objectID": "teaching.html#phd-workshops",
     "href": "teaching.html#phd-workshops",
-    "title": "Teaching\n",
+    "title": "Teaching",
     "section": "PhD Workshops",
     "text": "PhD Workshops\n\nApplied Language Models for Social Science Research ( Github)\n\nFive-hour workshop on the application of language models to social science research aimed at graduate students and researchers with prior experience in Python and basic machine learning.\n\nCausal Inference Using Observational Data ( Github)\n\nFive-hour workshop intended to provide an introduction to causal inference methods for observational data. Workshop is geared towards graduate students and researchers with prior experience in statistics and coding in R.\n\nData Collection Using Public APIs ( Github)\n\nThis workshop will equip students with the skills to programmatically access data from public REST APIs, transform this data into analysis-ready datasets, and critically consider dataset design for social science research. A working understanding of Python is recommended."
   },
   {
     "objectID": "teaching.html#invited-talks-lectures",
     "href": "teaching.html#invited-talks-lectures",
-    "title": "Teaching\n",
+    "title": "Teaching",
     "section": "Invited Talks & Lectures",
     "text": "Invited Talks & Lectures\n\n2024 LSE Department of Methodology Seminar Series\n\n Slides\n\n2023 LSE Department of Government Seminar Series\n\n Slides\n\nMachine Learning in the Social Sciences (LSE 2023)\n\n Slides\n\nApplied LLMs in the Social Sciences (LSE 2023)\n\n Slides\n Google Colab Notebook"
   },
   {
     "objectID": "datasets.html",
     "href": "datasets.html",
-    "title": "Language Models\n",
+    "title": "Models & Data",
     "section": "",
-    "text": "LLM available at: z-dickson/bart-large-cnn-climate-change-summarization"
+    "text": "LLM available at: z-dickson/bart-large-cnn-climate-change-summarization\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/US_politicians_covid_skepticism\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/CAP_multilingual\n\n\nDetails\n\nLanguage model trained to predict the CAP Issue Code of political text. The model was trained on the universe of coded data from the Comparative Agendas Project (huge thanks!) and can accurately predict the CAP code of political text in multiple languages and domains. \n\n\n\n\n\nLLM available at: z-dickson/multilingual_sentiment_newspaper_headlines\n\n\nDetails\n\nLanguage model trained to predict the sentiment of newspaper headlines in English, Polish, Spanish, Dutch and German."
+  },
+  {
+    "objectID": "datasets.html#language-models",
+    "href": "datasets.html#language-models",
+    "title": "Models & Data",
+    "section": "",
+    "text": "LLM available at: z-dickson/bart-large-cnn-climate-change-summarization\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/US_politicians_covid_skepticism\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/CAP_multilingual\n\n\nDetails\n\nLanguage model trained to predict the CAP Issue Code of political text. The model was trained on the universe of coded data from the Comparative Agendas Project (huge thanks!) and can accurately predict the CAP code of political text in multiple languages and domains. \n\n\n\n\n\nLLM available at: z-dickson/multilingual_sentiment_newspaper_headlines\n\n\nDetails\n\nLanguage model trained to predict the sentiment of newspaper headlines in English, Polish, Spanish, Dutch and German."
   },
   {
     "objectID": "datasets.html#datasets",
     "href": "datasets.html#datasets",
-    "title": "Language Models\n",
+    "title": "Models & Data",
     "section": "Datasets",
     "text": "Datasets\n\nUK Parliamentary Statutory Instruments: 1970-2021 [github]\nParliamentary Bills - Dáil Éireann (Ireland): 1950-2020 [github]\nParliamentary Bills - New Zealand Parliament: 1900-2020 [github]"
   },
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "About",
+    "title": "Research",
     "section": "",
-    "text": "Publications\nElite Cues and Non-compliance\n\n\n\nDickson, Zachary P. and Sara B HoboltAmerican Political Science Review (2024)    Article |  PDF |  Supplemental Materials | Replication  Covered in: PsyPost | APSA \n\n\nThe Youth Gender Gap in Support for the Far Right\n\n\n\nĐorđe Milosav, Dickson, Zachary P., Sara B Hobolt, Heike Klüver, and Toni Rodon Journal of European Public Policy (2025)   Article |  Supplemental Materials  Covered in: El País | The Loop | The Guardian\n\n\nGoing against the Grain: Climate Change as a Wedge Issue for the Radical Right\n\n\n\nDickson, Zachary P. and Sara B Hobolt Comparative Political Studies (2024)  Article |  PDF | Replication   Covered in: Forbes | Internazionale | UN General Assembly | Economic and Social Research Institute \n\n\nThe Effects of COVID-19 Infection on Opposition to COVID-19 Policies: Evidence from the U.S. Congress\n\n\n\nDickson, Zachary P. and T. Murat Yildirim  Political Communication (2024)   Article |  PDF |  Replication  Covered in: PsyPost \n\n\nThe Gender Gap in Elite-Voter Responsiveness Online\n\n\n\nDickson, Zachary P. Perspectives on Politics (2024)  Article |  PDF |  Replication \n\n\n\nWorking Papers\nPublic Service Delivery and Support for the Populist Right\nDickson, Zachary P., Sara B Hobolt, Catherine E de Vries and Simone Cremaschi  R&R APSR | Working draft  Covered in: The Guardian | Social Europe | The Economist | Bennett School of Public Policy (Cambridge)  Slides: EPSA 2024 \nBenchmarking Support for Climate Action in International Organizations\nDickson, Zachary P., Sara B Hobolt, Toni Rodon, Heike Kluver, and Theresa Kuhn  Pre-analysis plan | Working draft\nGreen Backlash and the Political Consequences of Politicizing Energy Prices\nDickson, Zachary P.  Working paper \nInequality and Support for Right-wing Populism in Britain\nDickson, Zachary P. and Sara B Hobolt  Working paper \nA coordinated solution for a coordinated problem? A Civic Education experiment on climate change and attitudes towards the European Union\nIrene Rodriguez, Toni Rodon and Dickson, Zachary P.\nWhen and How do Political Parties respond to Extreme Weather Events?\nCornelius Erfort and Dickson, Zachary P."
+    "text": "Publications\nElite Cues and Non-compliance\n\n\n\nDickson, Zachary P. and Sara B HoboltAmerican Political Science Review (2024)    Article |  PDF |  Supplemental Materials | Replication  Covered in: PsyPost | APSA \n\n\nThe Youth Gender Gap in Support for the Far Right\n\n\n\nĐorđe Milosav, Dickson, Zachary P., Sara B Hobolt, Heike Klüver, and Toni Rodon Journal of European Public Policy (2025)   Article |  Supplemental Materials  Covered in: El País | The Loop | The Guardian\n\n\nGoing against the Grain: Climate Change as a Wedge Issue for the Radical Right\n\n\n\nDickson, Zachary P. and Sara B Hobolt Comparative Political Studies (2024)  Article |  PDF | Replication   Covered in: Forbes | Internazionale | UN General Assembly | Economic and Social Research Institute \n\n\nThe Effects of COVID-19 Infection on Opposition to COVID-19 Policies: Evidence from the U.S. Congress\n\n\n\nDickson, Zachary P. and T. Murat Yildirim  Political Communication (2024)   Article |  PDF |  Replication  Covered in: PsyPost \n\n\nThe Gender Gap in Elite-Voter Responsiveness Online\n\n\n\nDickson, Zachary P. Perspectives on Politics (2024)  Article |  PDF |  Replication \n\n\n\nWorking Papers\nAccommodating the Radical Right: The Electoral Costs for Social Democratic Parties Turnbull-Dugarte, S., Bailey, J., Devine, D., Dickson, Zachary P., Hobolt, S., Jennings, W., Johns, R. and Lawall, K.  R&R APSR | Working draft  Covered in: The New Statesman | The Guardian \nPublic Service Delivery and Support for the Populist Right\nDickson, Zachary P., Sara B Hobolt, Catherine E de Vries and Simone Cremaschi  R&R APSR | Working draft  Covered in: The Guardian | Social Europe | The Economist | Bennett School of Public Policy (Cambridge)  Slides: EPSA 2024 \nBenchmarking Support for Climate Action in International Organizations\nDickson, Zachary P., Sara B Hobolt, Toni Rodon, Heike Kluver, and Theresa Kuhn  Pre-analysis plan | Working draft\nGreen Backlash and the Political Consequences of Politicizing Energy Prices\nDickson, Zachary P.  Working paper \nInequality and Support for Right-wing Populism in Britain\nDickson, Zachary P. and Sara B Hobolt  Working paper \nA coordinated solution for a coordinated problem? A Civic Education experiment on climate change and attitudes towards the European Union\nIrene Rodriguez, Toni Rodon and Dickson, Zachary P.\nWhen and How do Political Parties respond to Extreme Weather Events?\nCornelius Erfort and Dickson, Zachary P."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Zach Dickson\n",
+    "title": "Zachary P. Dickson",
     "section": "",
-    "text": "Thanks for stopping by! I’m a Postdoctoral Fellow in Quantitative Methods in the Department of Methodology at the London School of Economics. I’m also affiliated with the Data Science Institute, the Grantham Research Institute on Climate Change and the Environment, and the Public Opinion Analytics Lab. I completed my PhD at the University of Glasgow in 2024.\nMy research is broadly situated in political behavior, with specific interests in right-wing populism and climate politics. I’m a big fan of research methods, and most of my work includes either computational or causal inference methods. I’m also always on the prowl for new sources of data to better understand social behavior, and my past work has relied on data from social media, newspapers, governments, political parties and many others.\nMy research has been published in Political Communication, Comparative Political Studies, the American Political Science Review, among other journals. My research has also been covered in The Economist, The New Statesman, The Guardian, Forbes, El País, and in various blogs highlighted on my Research page.\nFor more on my research, check out my Research page or my Google Scholar page. My CV is also available here."
+    "text": "I am a Postdoctoral Fellow in Quantitative Methods in the Department of Methodology at the London School of Economics. I am also affiliated with the Data Science Institute, the Grantham Research Institute on Climate Change and the Environment, and the Public Opinion Analytics Lab. I completed my PhD at the University of Glasgow in 2024."
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Zachary P. Dickson",
+    "section": "Research",
+    "text": "Research\nMy research agenda intersects climate change politics, the rise of right-wing populism, and political communication. I study how citizens form political attitudes and how political elites shape public opinion—with particular focus on the rise of right-wing populism and the politics of climate change.\nSubstantively, I examine questions such as: How do radical right parties use climate policy as a wedge issue? What drives the emerging gender gap among young voters? How does the decline of public services fuel support for populist movements? And how do elite cues—including those from political leaders on social media—influence citizen behavior and compliance?\nMethodologically, I combine causal inference techniques with computational methods, including natural language processing and machine learning. I develop and train language models for social science applications and have created several open-source tools for text classification available on Hugging Face."
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "Zachary P. Dickson",
+    "section": "Publications",
+    "text": "Publications\nMy work has been published in the American Political Science Review, Comparative Political Studies, Political Communication, Perspectives on Politics, and the Journal of European Public Policy. For a complete list, see my Research page or Google Scholar."
+  },
+  {
+    "objectID": "index.html#public-impact",
+    "href": "index.html#public-impact",
+    "title": "Zachary P. Dickson",
+    "section": "Public Impact",
+    "text": "Public Impact\nMy research has been covered in The Economist, The Guardian, The New Statesman, Forbes, El País, and Internazionale, and has been cited in a UN General Assembly report on climate change."
+  },
+  {
+    "objectID": "index.html#grants-service",
+    "href": "index.html#grants-service",
+    "title": "Zachary P. Dickson",
+    "section": "Grants & Service",
+    "text": "Grants & Service\nI have received research funding from the British Academy/Leverhulme and LSE Seed Research Fund. I serve as a peer reviewer for journals including APSR, AJPS, JOP, BJPS, CPS, and EJPR, as well as for UKRI and the British Academy. I co-organize the LSE Political Behaviour and Methodology Work-in-Progress Seminar and the 2026 LSE Climate and Political Behaviour Workshop."
+  },
+  {
+    "objectID": "index.html#teaching",
+    "href": "index.html#teaching",
+    "title": "Zachary P. Dickson",
+    "section": "Teaching",
+    "text": "Teaching\nAt LSE, I teach courses on research design, causal inference, data science applications, and applied language models. I also lead PhD workshops on computational methods. See my Teaching page for materials and syllabi.\n\nMy CV is available here."
   }
 ]
