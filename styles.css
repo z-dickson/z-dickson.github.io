@@ -1,96 +1,31 @@
 /* Import formal serif font */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
-/* Dark theme foundation */
+/* Base styles for both themes */
 body {
-    background-color: #1e1e1e !important;
-    color: #e8e8e8 !important;
     font-family: "Crimson Text", Georgia, "Times New Roman", serif !important;
     font-size: 1.05rem;
     line-height: 1.65;
 }
 
-/* Main content area */
-.quarto-body-content,
-main.content,
-#quarto-content {
-    background-color: #1e1e1e !important;
-}
-
-/* Navbar styling */
-.navbar {
-    background-color: #141414 !important;
-    border-bottom: 1px solid #333333;
-}
-
-.navbar-brand,
-.navbar-nav .nav-link {
-    color: #c9c9d9 !important;
-    font-family: "Crimson Text", Georgia, serif !important;
-    font-size: 0.9rem;
-    letter-spacing: 0.02em;
-}
-
-.navbar-nav .nav-link:hover {
-    color: #7eb8da !important;
-}
-
-/* Hyperlinks - muted blue for dark theme */
-a {
-    color: #7eb8da;
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-a:hover {
-    color: #a8d4f0;
-    text-decoration: underline;
-}
-
 /* Headers */
 h1, h2, h3, h4, h5, h6 {
-    color: #e8e8e8 !important;
     font-family: "Crimson Text", Georgia, serif !important;
     font-weight: 600;
     letter-spacing: 0.01em;
 }
 
 h1 { font-size: 1.8rem; }
-h2 { font-size: 1.4rem; margin-top: 2rem; border-bottom: 1px solid #333333; padding-bottom: 0.5rem; }
+h2 { font-size: 1.4rem; margin-top: 2rem; padding-bottom: 0.5rem; }
 h3 { font-size: 1.2rem; }
 h4 { font-size: 1.1rem; }
 h5 { font-size: 1rem; }
 
-/* About page styling */
-.about-entity,
-.about-contents,
-.about-image-container,
-.quarto-about-trestles,
-.quarto-about-trestles .about-entity,
-#quarto-content .about-entity {
-    background-color: #1e1e1e !important;
-}
-
-.about-link {
-    background-color: transparent !important;
-    border: 1px solid #444444 !important;
-    color: #c9c9d9 !important;
-    font-size: 0.85rem !important;
-}
-
-.about-link:hover {
-    background-color: #333333 !important;
-    color: #7eb8da !important;
-}
-
-/* Profile image */
-.about-image {
-    border: 3px solid #444444 !important;
-}
-
-/* Trestles template specific */
-.quarto-about-trestles .about-entity .about-links {
-    background-color: #1e1e1e !important;
+.navbar-brand,
+.navbar-nav .nav-link {
+    font-family: "Crimson Text", Georgia, serif !important;
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
 }
 
 /* Force social icons to be horizontal on all screen sizes */
@@ -109,18 +44,6 @@ h5 { font-size: 1rem; }
     padding: 0.4rem !important;
     min-width: auto !important;
     width: auto !important;
-}
-
-.column-page,
-.column-body,
-.column-page-left {
-    background-color: #1e1e1e !important;
-}
-
-/* Horizontal rule styling */
-hr {
-    border-color: #444444;
-    opacity: 0.5;
 }
 
 /* Icon links - remove borders and shadows */
@@ -143,12 +66,6 @@ hr {
     height: 22px;
 }
 
-.icons a:hover svg,
-.about-links a:hover {
-    color: #7eb8da !important;
-    opacity: 0.8;
-}
-
 /* Publication entry styling */
 .publication-entry {
     display: flex;
@@ -156,9 +73,7 @@ hr {
     margin-bottom: 2rem;
     gap: 0.5rem;
     padding: 1rem;
-    background-color: #252525;
     border-radius: 4px;
-    border-left: 3px solid #444444;
 }
 
 .journal-cover {
@@ -176,54 +91,12 @@ hr {
     margin: 0.25rem 0.25rem 0 0;
     padding: 0.3rem 0.6rem;
     font-size: 0.8rem;
-    border: 1px solid #444444;
-    background-color: #333333;
-    color: #c9c9d9;
     cursor: pointer;
     border-radius: 3px;
 }
 
-.pub-details button:hover {
-    background-color: #444444;
-}
-
-/* Sidebar / TOC styling */
-.sidebar,
-.sidebar-navigation,
-#quarto-sidebar {
-    background-color: #141414 !important;
-    border-right: 1px solid #333333;
-}
-
-.sidebar-item-text,
-.sidebar a {
-    color: #c9c9d9 !important;
-    font-size: 0.85rem;
-}
-
-/* Code blocks */
-pre, code {
-    background-color: #141414 !important;
-    color: #c9c9d9 !important;
-    border: 1px solid #333333;
-    border-radius: 3px;
-    font-size: 0.85rem;
-}
-
-/* Emphasis styling */
-em, i {
-    color: #b8b8c8;
-}
-
-strong, b {
-    color: #e8e8e8;
-    font-weight: 600;
-}
-
 /* Details/summary elements */
 details {
-    background-color: #252525;
-    border: 1px solid #333333;
     border-radius: 4px;
     padding: 0.5rem 1rem;
     margin: 0.5rem 0;
@@ -231,7 +104,6 @@ details {
 
 summary {
     cursor: pointer;
-    color: #7eb8da;
     font-size: 0.9rem;
 }
 
@@ -243,62 +115,383 @@ img.center {
 }
 
 /* Lists */
-ul, ol {
-    color: #d8d8e8;
-}
-
 li {
     margin-bottom: 0.3rem;
-}
-
-/* Section dividers */
-.section-header {
-    color: #7eb8da;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
 }
 
 /* Paragraph spacing */
 p {
     margin-bottom: 1rem;
+}
+
+/* ==================== */
+/* DARK THEME STYLES    */
+/* ==================== */
+[data-bs-theme="dark"] body,
+html[data-bs-theme="dark"] body {
+    background-color: #1e1e1e !important;
+    color: #e8e8e8 !important;
+}
+
+[data-bs-theme="dark"] .quarto-body-content,
+[data-bs-theme="dark"] main.content,
+[data-bs-theme="dark"] #quarto-content {
+    background-color: #1e1e1e !important;
+}
+
+[data-bs-theme="dark"] .navbar {
+    background-color: #141414 !important;
+    border-bottom: 1px solid #333333;
+}
+
+[data-bs-theme="dark"] .navbar-brand,
+[data-bs-theme="dark"] .navbar-nav .nav-link {
+    color: #c9c9d9 !important;
+}
+
+[data-bs-theme="dark"] .navbar-nav .nav-link:hover {
+    color: #7eb8da !important;
+}
+
+[data-bs-theme="dark"] a {
+    color: #7eb8da;
+}
+
+[data-bs-theme="dark"] a:hover {
+    color: #a8d4f0;
+}
+
+[data-bs-theme="dark"] h1,
+[data-bs-theme="dark"] h2,
+[data-bs-theme="dark"] h3,
+[data-bs-theme="dark"] h4,
+[data-bs-theme="dark"] h5,
+[data-bs-theme="dark"] h6 {
+    color: #e8e8e8 !important;
+}
+
+[data-bs-theme="dark"] h2 {
+    border-bottom: 1px solid #333333;
+}
+
+[data-bs-theme="dark"] .about-entity,
+[data-bs-theme="dark"] .about-contents,
+[data-bs-theme="dark"] .about-image-container,
+[data-bs-theme="dark"] .quarto-about-trestles,
+[data-bs-theme="dark"] .quarto-about-trestles .about-entity,
+[data-bs-theme="dark"] #quarto-content .about-entity,
+[data-bs-theme="dark"] .quarto-about-trestles .about-entity .about-links,
+[data-bs-theme="dark"] .column-page,
+[data-bs-theme="dark"] .column-body,
+[data-bs-theme="dark"] .column-page-left {
+    background-color: #1e1e1e !important;
+}
+
+[data-bs-theme="dark"] .about-link {
+    background-color: transparent !important;
+    border: 1px solid #444444 !important;
+    color: #c9c9d9 !important;
+    font-size: 0.85rem !important;
+}
+
+[data-bs-theme="dark"] .about-link:hover {
+    background-color: #333333 !important;
+    color: #7eb8da !important;
+}
+
+[data-bs-theme="dark"] .about-image {
+    border: 3px solid #444444 !important;
+}
+
+[data-bs-theme="dark"] hr {
+    border-color: #444444;
+    opacity: 0.5;
+}
+
+[data-bs-theme="dark"] .icons a:hover svg,
+[data-bs-theme="dark"] .about-links a:hover {
+    color: #7eb8da !important;
+    opacity: 0.8;
+}
+
+[data-bs-theme="dark"] .publication-entry {
+    background-color: #252525;
+    border-left: 3px solid #444444;
+}
+
+[data-bs-theme="dark"] .pub-details button {
+    border: 1px solid #444444;
+    background-color: #333333;
+    color: #c9c9d9;
+}
+
+[data-bs-theme="dark"] .pub-details button:hover {
+    background-color: #444444;
+}
+
+[data-bs-theme="dark"] .sidebar,
+[data-bs-theme="dark"] .sidebar-navigation,
+[data-bs-theme="dark"] #quarto-sidebar {
+    background-color: #141414 !important;
+    border-right: 1px solid #333333;
+}
+
+[data-bs-theme="dark"] .sidebar-item-text,
+[data-bs-theme="dark"] .sidebar a {
+    color: #c9c9d9 !important;
+    font-size: 0.85rem;
+}
+
+[data-bs-theme="dark"] pre,
+[data-bs-theme="dark"] code {
+    background-color: #141414 !important;
+    color: #c9c9d9 !important;
+    border: 1px solid #333333;
+    border-radius: 3px;
+    font-size: 0.85rem;
+}
+
+[data-bs-theme="dark"] em,
+[data-bs-theme="dark"] i {
+    color: #b8b8c8;
+}
+
+[data-bs-theme="dark"] strong,
+[data-bs-theme="dark"] b {
+    color: #e8e8e8;
+    font-weight: 600;
+}
+
+[data-bs-theme="dark"] details {
+    background-color: #252525;
+    border: 1px solid #333333;
+}
+
+[data-bs-theme="dark"] summary {
+    color: #7eb8da;
+}
+
+[data-bs-theme="dark"] ul,
+[data-bs-theme="dark"] ol {
     color: #d8d8e8;
 }
 
-/* Footer */
-.nav-footer {
+[data-bs-theme="dark"] p {
+    color: #d8d8e8;
+}
+
+[data-bs-theme="dark"] .nav-footer {
     background-color: #141414 !important;
     border-top: 1px solid #333333;
 }
 
-/* Search */
-.aa-DetachedSearchButton {
+[data-bs-theme="dark"] .aa-DetachedSearchButton {
     background-color: #333333 !important;
     border-color: #444444 !important;
 }
 
-/* Quarto specific overrides */
-.quarto-title {
+[data-bs-theme="dark"] .quarto-title {
     color: #e8e8e8 !important;
 }
 
-.quarto-title-meta-contents {
+[data-bs-theme="dark"] .quarto-title-meta-contents {
     color: #b8b8c8 !important;
 }
 
-/* Card styling for any card elements */
-.card {
+[data-bs-theme="dark"] .card {
     background-color: #252525 !important;
     border: 1px solid #333333 !important;
 }
 
-/* Blockquotes */
-blockquote {
+[data-bs-theme="dark"] blockquote {
     border-left: 3px solid #444444;
     padding-left: 1rem;
     color: #b8b8c8;
+    font-style: italic;
+}
+
+/* ==================== */
+/* LIGHT THEME STYLES   */
+/* ==================== */
+[data-bs-theme="light"] body,
+html[data-bs-theme="light"] body {
+    background-color: #f8f8f8 !important;
+    color: #2a2a2a !important;
+}
+
+[data-bs-theme="light"] .quarto-body-content,
+[data-bs-theme="light"] main.content,
+[data-bs-theme="light"] #quarto-content {
+    background-color: #f8f8f8 !important;
+}
+
+[data-bs-theme="light"] .navbar {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+[data-bs-theme="light"] .navbar-brand,
+[data-bs-theme="light"] .navbar-nav .nav-link {
+    color: #2a2a2a !important;
+}
+
+[data-bs-theme="light"] .navbar-nav .nav-link:hover {
+    color: #0066aa !important;
+}
+
+[data-bs-theme="light"] a {
+    color: #0066aa;
+}
+
+[data-bs-theme="light"] a:hover {
+    color: #004488;
+}
+
+[data-bs-theme="light"] h1,
+[data-bs-theme="light"] h2,
+[data-bs-theme="light"] h3,
+[data-bs-theme="light"] h4,
+[data-bs-theme="light"] h5,
+[data-bs-theme="light"] h6 {
+    color: #1a1a1a !important;
+}
+
+[data-bs-theme="light"] h2 {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+[data-bs-theme="light"] .about-entity,
+[data-bs-theme="light"] .about-contents,
+[data-bs-theme="light"] .about-image-container,
+[data-bs-theme="light"] .quarto-about-trestles,
+[data-bs-theme="light"] .quarto-about-trestles .about-entity,
+[data-bs-theme="light"] #quarto-content .about-entity,
+[data-bs-theme="light"] .quarto-about-trestles .about-entity .about-links,
+[data-bs-theme="light"] .column-page,
+[data-bs-theme="light"] .column-body,
+[data-bs-theme="light"] .column-page-left {
+    background-color: #f8f8f8 !important;
+}
+
+[data-bs-theme="light"] .about-link {
+    background-color: transparent !important;
+    border: 1px solid #cccccc !important;
+    color: #2a2a2a !important;
+    font-size: 0.85rem !important;
+}
+
+[data-bs-theme="light"] .about-link:hover {
+    background-color: #e8e8e8 !important;
+    color: #0066aa !important;
+}
+
+[data-bs-theme="light"] .about-image {
+    border: 3px solid #cccccc !important;
+}
+
+[data-bs-theme="light"] hr {
+    border-color: #cccccc;
+    opacity: 0.5;
+}
+
+[data-bs-theme="light"] .icons a:hover svg,
+[data-bs-theme="light"] .about-links a:hover {
+    color: #0066aa !important;
+    opacity: 0.8;
+}
+
+[data-bs-theme="light"] .publication-entry {
+    background-color: #ffffff;
+    border-left: 3px solid #cccccc;
+}
+
+[data-bs-theme="light"] .pub-details button {
+    border: 1px solid #cccccc;
+    background-color: #f0f0f0;
+    color: #2a2a2a;
+}
+
+[data-bs-theme="light"] .pub-details button:hover {
+    background-color: #e0e0e0;
+}
+
+[data-bs-theme="light"] .sidebar,
+[data-bs-theme="light"] .sidebar-navigation,
+[data-bs-theme="light"] #quarto-sidebar {
+    background-color: #ffffff !important;
+    border-right: 1px solid #e0e0e0;
+}
+
+[data-bs-theme="light"] .sidebar-item-text,
+[data-bs-theme="light"] .sidebar a {
+    color: #2a2a2a !important;
+    font-size: 0.85rem;
+}
+
+[data-bs-theme="light"] pre,
+[data-bs-theme="light"] code {
+    background-color: #f0f0f0 !important;
+    color: #2a2a2a !important;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    font-size: 0.85rem;
+}
+
+[data-bs-theme="light"] em,
+[data-bs-theme="light"] i {
+    color: #4a4a4a;
+}
+
+[data-bs-theme="light"] strong,
+[data-bs-theme="light"] b {
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+[data-bs-theme="light"] details {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
+[data-bs-theme="light"] summary {
+    color: #0066aa;
+}
+
+[data-bs-theme="light"] ul,
+[data-bs-theme="light"] ol {
+    color: #2a2a2a;
+}
+
+[data-bs-theme="light"] p {
+    color: #2a2a2a;
+}
+
+[data-bs-theme="light"] .nav-footer {
+    background-color: #ffffff !important;
+    border-top: 1px solid #e0e0e0;
+}
+
+[data-bs-theme="light"] .aa-DetachedSearchButton {
+    background-color: #f0f0f0 !important;
+    border-color: #cccccc !important;
+}
+
+[data-bs-theme="light"] .quarto-title {
+    color: #1a1a1a !important;
+}
+
+[data-bs-theme="light"] .quarto-title-meta-contents {
+    color: #4a4a4a !important;
+}
+
+[data-bs-theme="light"] .card {
+    background-color: #ffffff !important;
+    border: 1px solid #e0e0e0 !important;
+}
+
+[data-bs-theme="light"] blockquote {
+    border-left: 3px solid #cccccc;
+    padding-left: 1rem;
+    color: #4a4a4a;
     font-style: italic;
 }
