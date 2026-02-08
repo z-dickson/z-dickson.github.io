@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.6.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,12 +34,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2486e1f0a3ee9ee1fc393803a1361cdb.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-6561bbde787c299e21493071c8edc6ff.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ad8eb3cb260010fa6b6a534e2657abb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-40bea2e723472edbb75bf1016dc62c1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-8da207d21e88f828067fd440b40d79d2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -161,9 +161,9 @@ ul.task-list li input[type="checkbox"] {
 <p>I am a Postdoctoral Fellow in Quantitative Methods in the <a href="https://www.lse.ac.uk/methodology">Department of Methodology</a> at the London School of Economics. I am also affiliated with the <a href="https://www.lse.ac.uk/DSI">Data Science Institute</a>, the <a href="https://www.lse.ac.uk/granthaminstitute/">Grantham Research Institute on Climate Change and the Environment</a>, and the <a href="https://www.poal.co.uk/">Public Opinion Analytics Lab</a>. I completed my PhD at the <a href="https://www.gla.ac.uk/schools/socialpolitical/">University of Glasgow</a> in 2024.</p>
 <section id="research" class="level2">
 <h2 data-anchor-id="research">Research</h2>
-<p>My research examines the <strong>rise of right-wing populism</strong>, focusing on how <strong>climate change policies</strong> are strategically instrumentalized by political actors to mobilize voters and influence public opinion. I am particularly interested in how economic grievances and cultural backlash interact with climate attitudes to drive support for populist parties and candidates.</p>
+<p>My research examines the <strong>rise of right-wing populism</strong>, focusing on how <strong>climate change policies</strong> are strategically instrumentalized by political actors to mobilize voters and influence public opinion. I am particularly interested in how political communication from elites and media interacts with material conditions to shape voter preferences and political behaviour.</p>
 <p>Methodologically, I combine <strong>causal inference</strong> techniques with <strong>computational methods</strong>, including natural language processing and machine learning. I develop and train <a href="datasets.html">language models</a> for social science applications and have created several open-source classification and generative models that are available on <a href="https://huggingface.co/z-dickson">Hugging Face</a>.</p>
-<p>My <strong>current projects</strong> examine the political consequences of household energy prices in the UK (funded by the British Academy) and how populist radical right parties talk about climate change on social media in Western Europe (funded by LSE).</p>
+<p>My <strong>current projects</strong> examine the political consequences of higher household energy prices in the UK (funded by the British Academy) and how populist radical right parties talked about climate change after the energy crisis in Western Europe (funded by LSE).</p>
 </section>
 <section id="publications" class="level2">
 <h2 data-anchor-id="publications">Publications</h2>
@@ -408,6 +408,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -518,6 +520,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
