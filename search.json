@@ -67,7 +67,7 @@
     "href": "index.html#research",
     "title": "Zachary P. Dickson",
     "section": "Research",
-    "text": "Research\nMy research examines the rise of right-wing populism, focusing on how climate change policies are strategically instrumentalised by political actors to mobilize voters and influence public opinion. I am particularly interested in how political communication from elites interacts with voters’ material conditions to shape preferences and political behaviour.\nMethodologically, I often combine causal inference methods with computational social science techniques, including natural language processing and machine learning. Much of my past work has relied on collecting and aggregating scraped text data from political parties and social media, and training and validating small-medium sized language models for particular applications. You can find several of the models I’ve trained on Hugging Face.\nMy current projects examine the political consequences of higher household energy prices in the UK (funded by the British Academy) and how populist radical right parties talked about climate change after the energy crisis in Western Europe (funded by LSE)."
+    "text": "Research\nMy research examines the rise of right-wing populism, focusing on how climate change policies are strategically instrumentalised by political actors to mobilise voters and influence public opinion. I am particularly interested in how political communication from elites interacts with voters’ material conditions to shape preferences and political behaviour.\nMethodologically, I often combine causal inference methods with computational social science techniques, including natural language processing and machine learning. Much of my past work has relied on collecting and aggregating scraped text data from political parties and social media, and training and validating small-medium sized language models for particular applications. You can find several of the models I’ve trained on Hugging Face.\nMy current projects examine the political consequences of higher household energy prices in the UK (funded by the British Academy) and how populist radical right parties talked about climate change after the energy crisis in Western Europe (funded by LSE)."
   },
   {
     "objectID": "index.html#publications",
@@ -88,7 +88,7 @@
     "href": "index.html#grants-service",
     "title": "Zachary P. Dickson",
     "section": "Grants & Service",
-    "text": "Grants & Service\nMy research has been generously supported by the British Academy/Leverhulme Trust and LSE. I co-organize the LSE Political Behaviour and Methodology Work-in-Progress Seminar and, starting in 2026, the inaugural LSE Climate and Political Behaviour Workshop."
+    "text": "Grants & Service\nMy research has been generously supported by the British Academy/Leverhulme Trust and LSE. I co-organise the LSE Political Behaviour and Methodology Work-in-Progress Seminar and, starting in 2026, the inaugural LSE Climate and Political Behaviour Workshop."
   },
   {
     "objectID": "index.html#teaching",
