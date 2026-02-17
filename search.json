@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "datasets.html",
+    "href": "datasets.html",
+    "title": "Models & Data",
+    "section": "",
+    "text": "LLM available at: z-dickson/bart-large-cnn-climate-change-summarization\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/US_politicians_covid_skepticism\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/CAP_multilingual\n\n\nDetails\n\nLanguage model trained to predict the CAP Issue Code of political text. The model was trained on the universe of coded data from the Comparative Agendas Project (huge thanks!) and can accurately predict the CAP code of political text in multiple languages and domains. \n\n\n\n\n\nLLM available at: z-dickson/multilingual_sentiment_newspaper_headlines\n\n\nDetails\n\nLanguage model trained to predict the sentiment of newspaper headlines in English, Polish, Spanish, Dutch and German."
+  },
+  {
+    "objectID": "datasets.html#language-models",
+    "href": "datasets.html#language-models",
+    "title": "Models & Data",
+    "section": "",
+    "text": "LLM available at: z-dickson/bart-large-cnn-climate-change-summarization\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/US_politicians_covid_skepticism\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/CAP_multilingual\n\n\nDetails\n\nLanguage model trained to predict the CAP Issue Code of political text. The model was trained on the universe of coded data from the Comparative Agendas Project (huge thanks!) and can accurately predict the CAP code of political text in multiple languages and domains. \n\n\n\n\n\nLLM available at: z-dickson/multilingual_sentiment_newspaper_headlines\n\n\nDetails\n\nLanguage model trained to predict the sentiment of newspaper headlines in English, Polish, Spanish, Dutch and German."
+  },
+  {
+    "objectID": "datasets.html#datasets",
+    "href": "datasets.html#datasets",
+    "title": "Models & Data",
+    "section": "Datasets",
+    "text": "Datasets\n\nUK Parliamentary Statutory Instruments: 1970-2021 [github]\nParliamentary Bills - Dáil Éireann (Ireland): 1950-2020 [github]\nParliamentary Bills - New Zealand Parliament: 1900-2020 [github]"
+  },
+  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
@@ -28,27 +49,6 @@
     "text": "Invited Talks & Lectures\n\n2024 LSE Department of Methodology Seminar Series\n\n Slides\n\n2023 LSE Department of Government Seminar Series\n\n Slides\n\nMachine Learning in the Social Sciences (LSE 2023)\n\n Slides\n\nApplied LLMs in the Social Sciences (LSE 2023)\n\n Slides\n Google Colab Notebook"
   },
   {
-    "objectID": "datasets.html",
-    "href": "datasets.html",
-    "title": "Models & Data",
-    "section": "",
-    "text": "LLM available at: z-dickson/bart-large-cnn-climate-change-summarization\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/US_politicians_covid_skepticism\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/CAP_multilingual\n\n\nDetails\n\nLanguage model trained to predict the CAP Issue Code of political text. The model was trained on the universe of coded data from the Comparative Agendas Project (huge thanks!) and can accurately predict the CAP code of political text in multiple languages and domains. \n\n\n\n\n\nLLM available at: z-dickson/multilingual_sentiment_newspaper_headlines\n\n\nDetails\n\nLanguage model trained to predict the sentiment of newspaper headlines in English, Polish, Spanish, Dutch and German."
-  },
-  {
-    "objectID": "datasets.html#language-models",
-    "href": "datasets.html#language-models",
-    "title": "Models & Data",
-    "section": "",
-    "text": "LLM available at: z-dickson/bart-large-cnn-climate-change-summarization\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/US_politicians_covid_skepticism\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/CAP_multilingual\n\n\nDetails\n\nLanguage model trained to predict the CAP Issue Code of political text. The model was trained on the universe of coded data from the Comparative Agendas Project (huge thanks!) and can accurately predict the CAP code of political text in multiple languages and domains. \n\n\n\n\n\nLLM available at: z-dickson/multilingual_sentiment_newspaper_headlines\n\n\nDetails\n\nLanguage model trained to predict the sentiment of newspaper headlines in English, Polish, Spanish, Dutch and German."
-  },
-  {
-    "objectID": "datasets.html#datasets",
-    "href": "datasets.html#datasets",
-    "title": "Models & Data",
-    "section": "Datasets",
-    "text": "Datasets\n\nUK Parliamentary Statutory Instruments: 1970-2021 [github]\nParliamentary Bills - Dáil Éireann (Ireland): 1950-2020 [github]\nParliamentary Bills - New Zealand Parliament: 1900-2020 [github]"
-  },
-  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
@@ -67,7 +67,7 @@
     "href": "index.html#research",
     "title": "Zachary P. Dickson",
     "section": "Research",
-    "text": "Research\nMy research examines the causes and consequences of right-wing populism, focusing particularly on the distributive consequences of government policies in liberal democracies. I am especially interested in how political entrepreneurs captitalise on grievances related to (real or perceived) material decline. For instance, how declining local public services condition public perceptions of the social contract, and how subjective status loss interacts with feelings of belonging and political attitudes towards out-groups. Support for—and skepticism of—climate change policies is also a big part of my research agenda. Some of my ongoing projects examine how populist radical right parties politicise climate policies, and how governments can build support for costly policies intended to address the climate crisis.\nResearch methods are a big part of my research identity. Much of my work combines computational social science with causal inference methods. I’m especially interested in language models, and you can find some of the language models I’ve trained on Hugging Face."
+    "text": "Research\nMy research examines the causes and consequences of right-wing populism, focusing particularly on the distributive consequences of government policies in liberal democracies. I am especially interested in how political entrepreneurs captitalise on grievances related to (real or perceived) material decline. For instance, how declining local public services condition public perceptions of the social contract, and how subjective status loss interacts with feelings of belonging and political attitudes towards out-groups. Support for—and skepticism of—climate change policies are also a big part of my research agenda. Some of my ongoing projects examine how populist radical right parties politicise climate policies, and how governments can build support for costly policies intended to address the climate crisis.\nResearch methods are a big part of my research identity. Much of my work combines computational social science with causal inference methods. I’m especially interested in language models, and you can find some of the language models I’ve trained on Hugging Face."
   },
   {
     "objectID": "index.html#publications",
