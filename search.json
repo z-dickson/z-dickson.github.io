@@ -60,41 +60,6 @@
     "href": "index.html",
     "title": "Zachary P. Dickson",
     "section": "",
-    "text": "I am a Postdoctoral Fellow in Quantitative Methods in the Department of Methodology at the London School of Economics. I am also affiliated with the Data Science Institute, the Grantham Research Institute on Climate Change and the Environment, and the Public Opinion Analytics Lab. I completed my PhD at the University of Glasgow in 2024."
-  },
-  {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
-    "title": "Zachary P. Dickson",
-    "section": "Research",
-    "text": "Research\nMy research investigates how distributional conflicts over resources, services, and the costs of policy shape political behaviour. A unifying thread across my work is the question of who bears the costs of policy failures and social change—and how those costs, when concentrated locally or distributed unequally across social groups, generate grievances that fuel support for right-wing populism and resistance to progressive policies and environmental policies in particular. While my work spans Europe and North America, many of my current projects are grounded in the contemporary politics of the United Kingdom.\nResearch methods are a big part of my research identity. My work is methodologically pluralistic, and I use a variety of causal inference methods, including experimental and quasi-experimental designs, to identify the causal effects of policy shocks and social change on political behaviour. I also use computational methods, including natural language processing and machine learning, to analyze large-scale text data and to develop new tools for measuring political attitudes and behavior. You can find some of the language models I’ve trained on Hugging Face."
-  },
-  {
-    "objectID": "index.html#publications",
-    "href": "index.html#publications",
-    "title": "Zachary P. Dickson",
-    "section": "Publications",
-    "text": "Publications\nMy work has been published in the American Political Science Review, Comparative Political Studies, Political Communication, Perspectives on Politics, and the Journal of European Public Policy. For a complete list, see my Research page or Google Scholar."
-  },
-  {
-    "objectID": "index.html#public-impact",
-    "href": "index.html#public-impact",
-    "title": "Zachary P. Dickson",
-    "section": "Public Impact",
-    "text": "Public Impact\nMy research has been covered in The Economist, The Guardian, The New Statesman, Forbes, El País, and Internazionale, and has been cited in a UN General Assembly report on climate change."
-  },
-  {
-    "objectID": "index.html#grants-service",
-    "href": "index.html#grants-service",
-    "title": "Zachary P. Dickson",
-    "section": "Grants & Service",
-    "text": "Grants & Service\nMy research has been generously supported by the British Academy/Leverhulme Trust and LSE. I co-organise the LSE Political Behaviour and Methodology Work-in-Progress Seminar and, starting in 2026, the inaugural LSE Climate and Political Behaviour Workshop."
-  },
-  {
-    "objectID": "index.html#teaching",
-    "href": "index.html#teaching",
-    "title": "Zachary P. Dickson",
-    "section": "Teaching",
-    "text": "Teaching\nAt LSE, I teach courses on research design, causal inference, data science applications, and applied language models. I also lead PhD workshops on computational methods. See my Teaching page for materials and syllabi.\n\nMy CV is available here."
+    "text": "I am a Postdoctoral Fellow in Quantitative Methods in the Department of Methodology at the London School of Economics. I am also affiliated with the Data Science Institute, the Grantham Research Institute on Climate Change and the Environment, and the Public Opinion Analytics Lab. I completed my PhD at the University of Glasgow in 2024.\nMy research investigates how distributional conflicts over resources, services, and the costs of policy shape political behaviour. A unifying thread across my work is the question of who bears the costs of policy failures and social change—and how those costs, when concentrated locally or distributed unequally across social groups, generate grievances that fuel support for right-wing populism and resistance to progressive policies and environmental policies in particular. While my work spans Europe and North America, many of my current projects are grounded in the contemporary politics of the United Kingdom.\nResearch methods are a big part of my research identity. My work is methodologically pluralistic, and I use a variety of causal inference methods, including experimental and quasi-experimental designs, to identify the causal effects of policy shocks and social change on political behaviour. I also use computational methods, including natural language processing and machine learning, to analyze large-scale text data and to develop new tools for measuring political attitudes and behavior. You can find some of the language models I’ve trained on Hugging Face.\nMy work is forthcoming or has been published in the American Political Science Review, Comparative Political Studies, Political Communication, Perspectives on Politics, and the Journal of European Public Policy. For a complete list, see my Research page or Google Scholar. My research has also been covered in The Economist, The Guardian, The New Statesman, Forbes, El País, and Internazionale, and was recently cited in a UN General Assembly report on inequality and right-wing populism.\nMy research has been generously supported by the British Academy/Leverhulme Trust and LSE. I also co-organise the LSE Political Behaviour and Methodology Work-in-Progress Seminar and, starting in 2026, the inaugural LSE Climate and Political Behaviour Workshop. At LSE, I teach courses on research design, causal inference, data science applications, and applied language models. I also lead PhD workshops on computational methods. See my Teaching page for materials and syllabi.\n\nMy CV is available here."
   }
 ]
