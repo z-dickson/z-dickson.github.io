@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "datasets.html",
+    "href": "datasets.html",
+    "title": "Models & Data",
+    "section": "",
+    "text": "LLM available at: z-dickson/bart-large-cnn-climate-change-summarization\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/US_politicians_covid_skepticism\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/CAP_multilingual\n\n\nDetails\n\nLanguage model trained to predict the CAP Issue Code of political text. The model was trained on the universe of coded data from the Comparative Agendas Project (huge thanks!) and can accurately predict the CAP code of political text in multiple languages and domains. \n\n\n\n\n\nLLM available at: z-dickson/multilingual_sentiment_newspaper_headlines\n\n\nDetails\n\nLanguage model trained to predict the sentiment of newspaper headlines in English, Polish, Spanish, Dutch and German."
+  },
+  {
+    "objectID": "datasets.html#language-models",
+    "href": "datasets.html#language-models",
+    "title": "Models & Data",
+    "section": "",
+    "text": "LLM available at: z-dickson/bart-large-cnn-climate-change-summarization\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/US_politicians_covid_skepticism\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/CAP_multilingual\n\n\nDetails\n\nLanguage model trained to predict the CAP Issue Code of political text. The model was trained on the universe of coded data from the Comparative Agendas Project (huge thanks!) and can accurately predict the CAP code of political text in multiple languages and domains. \n\n\n\n\n\nLLM available at: z-dickson/multilingual_sentiment_newspaper_headlines\n\n\nDetails\n\nLanguage model trained to predict the sentiment of newspaper headlines in English, Polish, Spanish, Dutch and German."
+  },
+  {
+    "objectID": "datasets.html#datasets",
+    "href": "datasets.html#datasets",
+    "title": "Models & Data",
+    "section": "Datasets",
+    "text": "Datasets\n\nUK Parliamentary Statutory Instruments: 1970-2021 [github]\nParliamentary Bills - Dáil Éireann (Ireland): 1950-2020 [github]\nParliamentary Bills - New Zealand Parliament: 1900-2020 [github]"
+  },
+  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
@@ -28,32 +49,11 @@
     "text": "Invited Talks & Lectures\n\n2024 LSE Department of Methodology Seminar Series\n\n Slides\n\n2023 LSE Department of Government Seminar Series\n\n Slides\n\nMachine Learning in the Social Sciences (LSE 2023)\n\n Slides\n\nApplied LLMs in the Social Sciences (LSE 2023)\n\n Slides\n Google Colab Notebook"
   },
   {
-    "objectID": "datasets.html",
-    "href": "datasets.html",
-    "title": "Models & Data",
-    "section": "",
-    "text": "LLM available at: z-dickson/bart-large-cnn-climate-change-summarization\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/US_politicians_covid_skepticism\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/CAP_multilingual\n\n\nDetails\n\nLanguage model trained to predict the CAP Issue Code of political text. The model was trained on the universe of coded data from the Comparative Agendas Project (huge thanks!) and can accurately predict the CAP code of political text in multiple languages and domains. \n\n\n\n\n\nLLM available at: z-dickson/multilingual_sentiment_newspaper_headlines\n\n\nDetails\n\nLanguage model trained to predict the sentiment of newspaper headlines in English, Polish, Spanish, Dutch and German."
-  },
-  {
-    "objectID": "datasets.html#language-models",
-    "href": "datasets.html#language-models",
-    "title": "Models & Data",
-    "section": "",
-    "text": "LLM available at: z-dickson/bart-large-cnn-climate-change-summarization\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/US_politicians_covid_skepticism\n\n\nDetails\n\n\n\n\n\n\n\nLLM available at: z-dickson/CAP_multilingual\n\n\nDetails\n\nLanguage model trained to predict the CAP Issue Code of political text. The model was trained on the universe of coded data from the Comparative Agendas Project (huge thanks!) and can accurately predict the CAP code of political text in multiple languages and domains. \n\n\n\n\n\nLLM available at: z-dickson/multilingual_sentiment_newspaper_headlines\n\n\nDetails\n\nLanguage model trained to predict the sentiment of newspaper headlines in English, Polish, Spanish, Dutch and German."
-  },
-  {
-    "objectID": "datasets.html#datasets",
-    "href": "datasets.html#datasets",
-    "title": "Models & Data",
-    "section": "Datasets",
-    "text": "Datasets\n\nUK Parliamentary Statutory Instruments: 1970-2021 [github]\nParliamentary Bills - Dáil Éireann (Ireland): 1950-2020 [github]\nParliamentary Bills - New Zealand Parliament: 1900-2020 [github]"
-  },
-  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Publications\nElite Cues and Non-compliance\n\n\n\nDickson, Zachary P. and Sara B HoboltAmerican Political Science Review (2024)    Article |  PDF |  Supplemental Materials | Replication  Covered in: PsyPost | APSA \n\n\nThe Youth Gender Gap in Support for the Far Right\n\n\n\nĐorđe Milosav, Dickson, Zachary P., Sara B Hobolt, Heike Klüver, and Toni Rodon Journal of European Public Policy (2025)   Article |  Supplemental Materials  Covered in: El País | The Loop | The Guardian\n\n\nGoing against the Grain: Climate Change as a Wedge Issue for the Radical Right\n\n\n\nDickson, Zachary P. and Sara B Hobolt Comparative Political Studies (2024)  Article |  PDF | Replication   Covered in: Forbes | Internazionale | UN General Assembly | Economic and Social Research Institute \n\n\nThe Effects of COVID-19 Infection on Opposition to COVID-19 Policies: Evidence from the U.S. Congress\n\n\n\nDickson, Zachary P. and T. Murat Yildirim  Political Communication (2024)   Article |  PDF |  Replication  Covered in: PsyPost \n\n\nThe Gender Gap in Elite-Voter Responsiveness Online\n\n\n\nDickson, Zachary P. Perspectives on Politics (2024)  Article |  PDF |  Replication \n\n\n\nWorking Papers\nAccommodating the Radical Right: The Electoral Costs for Social Democratic Parties Turnbull-Dugarte, S., Bailey, J., Devine, D., Dickson, Zachary P., Hobolt, S., Jennings, W., Johns, R. and Lawall, K.  R&R APSR | Working draft  Covered in: The New Statesman | The Guardian \nPublic Service Delivery and Support for the Populist Right\nDickson, Zachary P., Sara B Hobolt, Catherine E de Vries and Simone Cremaschi  R&R APSR | Working draft  Covered in: The Guardian | Social Europe | The Economist | Bennett School of Public Policy (Cambridge)  Slides: EPSA 2024 \nBenchmarking Support for Climate Action in International Organizations\nDickson, Zachary P., Sara B Hobolt, Toni Rodon, Heike Kluver, and Theresa Kuhn  Pre-analysis plan | Working draft\nGreen Backlash and the Political Consequences of Politicizing Energy Prices\nDickson, Zachary P.  Working paper \nInequality and Support for Right-wing Populism in Britain\nDickson, Zachary P. and Sara B Hobolt  Working paper \nA coordinated solution for a coordinated problem? A Civic Education experiment on climate change and attitudes towards the European Union\nIrene Rodriguez, Toni Rodon and Dickson, Zachary P.\nWhen and How do Political Parties respond to Extreme Weather Events?\nCornelius Erfort and Dickson, Zachary P."
+    "text": "Publications\nElite Cues and Non-compliance\n\n\n\nDickson, Zachary P. and Sara B HoboltAmerican Political Science Review (2024)    Article |  PDF |  Supplemental Materials | Replication  Covered in: PsyPost | APSA \n\n\nThe Youth Gender Gap in Support for the Far Right\n\n\n\nĐorđe Milosav, Dickson, Zachary P., Sara B Hobolt, Heike Klüver, and Toni Rodon Journal of European Public Policy (2025)   Article |  Supplemental Materials  Covered in: El País | The Loop | The Guardian\n\n\nGoing against the Grain: Climate Change as a Wedge Issue for the Radical Right\n\n\n\nDickson, Zachary P. and Sara B Hobolt Comparative Political Studies (2024)  Article |  PDF | Replication   Covered in: Forbes | Internazionale | UN General Assembly | Economic and Social Research Institute \n\n\nThe Effects of COVID-19 Infection on Opposition to COVID-19 Policies: Evidence from the U.S. Congress\n\n\n\nDickson, Zachary P. and T. Murat Yildirim  Political Communication (2024)   Article |  PDF |  Replication  Covered in: PsyPost \n\n\nThe Gender Gap in Elite-Voter Responsiveness Online\n\n\n\nDickson, Zachary P. Perspectives on Politics (2024)  Article |  PDF |  Replication \n\n\n\nWorking Papers\nAccommodating the Radical Right: The Electoral Costs for Social Democratic Parties Turnbull-Dugarte, S., Bailey, J., Devine, D., Dickson, Zachary P., Hobolt, S., Jennings, W., Johns, R. and Lawall, K.  R&R APSR | Working draft  Covered in: The New Statesman | The Guardian \nPublic Service Delivery and Support for the Populist Right\nDickson, Zachary P., Sara B Hobolt, Catherine E de Vries and Simone Cremaschi  R&R APSR | Working draft  Covered in: The Guardian | Social Europe | The Economist | Bennett School of Public Policy (Cambridge)  Slides: EPSA 2024 \nBenchmarking Support for Climate Action in International Organizations\nDickson, Zachary P., Sara B Hobolt, Toni Rodon, Heike Kluver, and Theresa Kuhn  Pre-analysis plan | Working draft\nGreen Backlash and the Political Consequences of Politicizing Energy Prices\nDickson, Zachary P.  Working paper \nInequality and Support for Right-wing Populism in Britain\nDickson, Zachary P. and Sara B Hobolt  Working paper \nEducational interventions and public support for EU climate action\nIrene Rodriguez, Toni Rodon and Dickson, Zachary P.  Working paper \nThe PARTYPRESS Database: Party Press Releases Across 30 European Countries, 2010–2025\nCornelius Erfort and Dickson, Zachary P.\nAI and democratic risk: political news customization in conversational AI\nDickson, Zachary P., Thomas Robinson, and Miriam Sorace"
   },
   {
     "objectID": "index.html",
@@ -67,7 +67,7 @@
     "href": "index.html#research",
     "title": "Zachary P. Dickson",
     "section": "Research",
-    "text": "Research\nMy research investigates how distributional conflicts over resources, services, and the costs of policy shape political behaviour. A unifying thread across my work is the question of who bears the costs of policy failures and social change—and how those costs, when concentrated locally or distributed unequally across social groups, generate grievances that fuel support for right-wing populism and resistance to progressive policies and environmental policies in particular. While my work spans Europe and North America, much of it is grounded in the contemporary politics of the United Kingdom, where stark local inequalities in public service provision and the regressive distributional consequences of major policy transitions have profoundly reshaped the electoral landscape.\nResearch methods are a big part of my research identity. My work is methodologically pluralistic, and I use a variety of causal inference methods, including experimental and quasi-experimental designs, to identify the causal effects of policy shocks and social change on political behaviour. I also use computational methods, including natural language processing and machine learning, to analyze large-scale text data and to develop new tools for measuring political attitudes and behavior. You can find some of the language models I’ve trained on Hugging Face."
+    "text": "Research\nMy research investigates how distributional conflicts over resources, services, and the costs of policy shape political behaviour. A unifying thread across my work is the question of who bears the costs of policy failures and social change—and how those costs, when concentrated locally or distributed unequally across social groups, generate grievances that fuel support for right-wing populism and resistance to progressive policies and environmental policies in particular. While my work spans Europe and North America, many of my current projects are grounded in the contemporary politics of the United Kingdom.\nResearch methods are a big part of my research identity. My work is methodologically pluralistic, and I use a variety of causal inference methods, including experimental and quasi-experimental designs, to identify the causal effects of policy shocks and social change on political behaviour. I also use computational methods, including natural language processing and machine learning, to analyze large-scale text data and to develop new tools for measuring political attitudes and behavior. You can find some of the language models I’ve trained on Hugging Face."
   },
   {
     "objectID": "index.html#publications",

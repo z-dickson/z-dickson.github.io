@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.32">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,12 +34,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2486e1f0a3ee9ee1fc393803a1361cdb.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-6561bbde787c299e21493071c8edc6ff.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8da207d21e88f828067fd440b40d79d2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-ad8eb3cb260010fa6b6a534e2657abb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-40bea2e723472edbb75bf1016dc62c1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -161,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
 <p>I am a Postdoctoral Fellow in Quantitative Methods in the <a href="https://www.lse.ac.uk/methodology">Department of Methodology</a> at the London School of Economics. I am also affiliated with the <a href="https://www.lse.ac.uk/DSI">Data Science Institute</a>, the <a href="https://www.lse.ac.uk/granthaminstitute/">Grantham Research Institute on Climate Change and the Environment</a>, and the <a href="https://www.poal.co.uk/">Public Opinion Analytics Lab</a>. I completed my PhD at the <a href="https://www.gla.ac.uk/schools/socialpolitical/">University of Glasgow</a> in 2024.</p>
 <section id="research" class="level2">
 <h2 data-anchor-id="research">Research</h2>
-<p>My research investigates how distributional conflicts over resources, services, and the costs of policy shape political behaviour. A unifying thread across my work is the question of who bears the costs of policy failures and social change—and how those costs, when concentrated locally or distributed unequally across social groups, generate grievances that fuel support for right-wing populism and resistance to progressive policies and environmental policies in particular. While my work spans Europe and North America, much of it is grounded in the contemporary politics of the United Kingdom, where stark local inequalities in public service provision and the regressive distributional consequences of major policy transitions have profoundly reshaped the electoral landscape.</p>
+<p>My research investigates how distributional conflicts over resources, services, and the costs of policy shape political behaviour. A unifying thread across my work is the question of who bears the costs of policy failures and social change—and how those costs, when concentrated locally or distributed unequally across social groups, generate grievances that fuel support for right-wing populism and resistance to progressive policies and environmental policies in particular. While my work spans Europe and North America, many of my current projects are grounded in the contemporary politics of the United Kingdom.</p>
 <p>Research methods are a big part of my research identity. My work is methodologically pluralistic, and I use a variety of causal inference methods, including experimental and quasi-experimental designs, to identify the causal effects of policy shocks and social change on political behaviour. I also use computational methods, including natural language processing and machine learning, to analyze large-scale text data and to develop new tools for measuring political attitudes and behavior. You can find some of the <a href="datasets.html">language models</a> I’ve trained on <a href="https://huggingface.co/z-dickson">Hugging Face</a>.</p>
 </section>
 <section id="publications" class="level2">
@@ -407,8 +407,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -519,7 +517,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
