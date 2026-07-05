@@ -1,0 +1,23 @@
+"APSR":
+  url: https://www.cambridge.org/core/journals/american-political-science-review
+  color: "#8C1515"
+
+"CPS":
+  url: https://journals.sagepub.com/home/cps
+  color: "#00539B"
+
+"PolComm":
+  url: https://www.tandfonline.com/journals/upcp20
+  color: "#4B2E83"
+
+"PoP":
+  url: https://www.cambridge.org/core/journals/perspectives-on-politics
+  color: "#8C1515"
+
+"JEPP":
+  url: https://www.tandfonline.com/journals/rjpp20
+  color: "#00693E"
+
+"LancetPH":
+  url: https://www.thelancet.com/journals/lanpub/home
+  color: "#0057B7"

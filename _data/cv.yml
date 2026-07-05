@@ -1,0 +1,51 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Zachary P. Dickson
+    - name: Email
+      value: z.dickson@lse.ac.uk
+    - name: Languages
+      value: English
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Postdoctoral Fellow in Quantitative Methods
+      institution: London School of Economics
+      department: Department of Methodology
+      year: 2024 -
+    - title: Affiliated Researcher
+      institution: Data Science Institute; Grantham Research Institute on Climate Change and the Environment; Public Opinion Analytics Lab
+      year: 2024 -
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD, Politics
+      institution: University of Glasgow
+      year: 2024
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Political Behaviour
+      items:
+        - Distributive politics, place-based grievances, and public service provision
+        - Support for the radical and populist right in Europe and North America
+        - The politics of climate change and the costs of policy
+    - title: Methods
+      items:
+        - Causal inference; experimental and quasi-experimental designs
+        - Computational social science, language models, and machine learning
+
+- title: Selected Funding & Awards
+  type: list
+  contents:
+    - British Academy / Leverhulme Trust
+    - London School of Economics
+
+- title: Publications
+  type: list
+  contents:
+    - A complete list is available on the <a href="/publications/">publications</a> page and on <a href="https://scholar.google.com/citations?user=r72XtswAAAAJ&hl=en">Google Scholar</a>.
