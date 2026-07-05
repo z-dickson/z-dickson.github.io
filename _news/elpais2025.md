@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-*El País* [covers](https://elpais.com/espana/2025-10-19/el-aborto-recrudece-la-decisiva-batalla-por-el-voto-de-las-mujeres.html) "The Youth Gender Gap in Support for the Far Right", published in the *Journal of European Public Policy*.
+_El País_ [covers](https://elpais.com/espana/2025-10-19/el-aborto-recrudece-la-decisiva-batalla-por-el-voto-de-las-mujeres.html) "The Youth Gender Gap in Support for the Far Right", published in the _Journal of European Public Policy_.

@@ -1,0 +1,13 @@
+# Links inside imported presentation/slide decks (assets/html/*.html) and other
+# vendored artifacts. These are third-party citations that are paywalled, have
+# moved, or rate-limit automated checkers, plus author-local build paths — none
+# are links on the site's own pages, so they are excluded from link checking.
+https?://(www\.)?bild\.de
+https?://(www\.|sport\.)?fakt\.pl
+https?://(www\.)?sueddeutsche\.de
+https?://(www\.)?thetimes\.co\.uk
+https?://(www\.)?mlprograms\.com
+https?://trends\.google\.com
+/blob/gh-pages/assets/elite_cues\.pdf
+file:///home/zach/
+/assets/html/

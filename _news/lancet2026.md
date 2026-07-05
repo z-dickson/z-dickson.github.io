@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The [2026 Europe report of the Lancet Countdown](/publications/) on health and climate change is published in *The Lancet Public Health*. 🌍
+The [2026 Europe report of the Lancet Countdown](/publications/) on health and climate change is published in _The Lancet Public Health_. 🌍

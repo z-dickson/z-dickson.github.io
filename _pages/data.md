@@ -10,6 +10,7 @@ nav_order: 5
 ## Language Models
 
 #### [Facebook bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn) — sequence-to-sequence model trained to summarise policy positions from party press releases
+
 Available at: [z-dickson/bart-large-cnn-climate-change-summarization](https://huggingface.co/z-dickson/bart-large-cnn-climate-change-summarization)
 
 <details>
@@ -20,6 +21,7 @@ Available at: [z-dickson/bart-large-cnn-climate-change-summarization](https://hu
 ---
 
 #### [vinai/bertweet-large](https://huggingface.co/vinai/bertweet-large) — model trained to predict opposition to COVID-19 policies in US congressmembers' tweets
+
 Available at: [z-dickson/US_politicians_covid_skepticism](https://huggingface.co/z-dickson/US_politicians_covid_skepticism)
 
 <details>
@@ -30,6 +32,7 @@ Available at: [z-dickson/US_politicians_covid_skepticism](https://huggingface.co
 ---
 
 #### [bert-base-multilingual-cased](https://huggingface.co/bert-base-multilingual-cased) — trained to predict the [CAP issue codes](https://www.comparativeagendas.net/pages/master-codebook) of political text (bills, speeches, tweets, etc.)
+
 Available at: [z-dickson/CAP_multilingual](https://huggingface.co/z-dickson/CAP_multilingual)
 
 <details>
@@ -41,6 +44,7 @@ Available at: [z-dickson/CAP_multilingual](https://huggingface.co/z-dickson/CAP_
 ---
 
 #### [bert-base-multilingual-cased](https://huggingface.co/bert-base-multilingual-cased) — sentiment model trained on Polish, English, Spanish, Dutch and German newspaper headlines
+
 Available at: [z-dickson/multilingual_sentiment_newspaper_headlines](https://huggingface.co/z-dickson/multilingual_sentiment_newspaper_headlines)
 
 <details>
