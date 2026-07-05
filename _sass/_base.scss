@@ -38,6 +38,12 @@ a,
 table.table a {
   color: var(--global-theme-color);
 
+  // Italic text inside a link (e.g. italicized newspaper names in "covered in"
+  // sentences) should take the link color, not the theme's default em color.
+  em {
+    color: inherit;
+  }
+
   &:hover {
     color: var(--global-theme-color);
     text-decoration: underline;
