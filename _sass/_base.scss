@@ -744,6 +744,22 @@ footer.sticky-bottom {
         }
       }
 
+      // Links in the meta line (e.g. "Covered in:" media coverage, replication):
+      // match the theme link color even when the outlet name is wrapped in <em>.
+      .periodical {
+        a {
+          color: var(--global-theme-color);
+
+          em {
+            color: inherit;
+          }
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
       .links {
         a.btn {
           color: var(--global-text-color);
