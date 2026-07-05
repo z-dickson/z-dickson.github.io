@@ -3,7 +3,11 @@ layout: page
 permalink: /talks/
 title: talks
 description: Invited talks, lectures, and presentation slides.
-nav: true
+# Page hidden from the live site: `published: false` tells Jekyll not to build it,
+# so it won't appear at /talks/ or in the navbar. To restore, delete the line below
+# (or set it to true) and set `nav: true`.
+published: false
+nav: false
 nav_order: 4
 ---
 
