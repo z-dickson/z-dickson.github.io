@@ -8,7 +8,9 @@ nav_order: 2
 ---
 
 <!-- _pages/workingpapers.md -->
-<div class="publications">
+<!-- `no-year-groups` hides the year dividers (see _sass/_base.scss); working
+     papers are ongoing, so grouping them by year is not meaningful. -->
+<div class="publications no-year-groups">
 
 {% bibliography -f working %}
 
