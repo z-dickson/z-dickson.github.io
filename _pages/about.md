@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Fellow in Quantitative Methods, <a href='https://www.lse.ac.uk/methodology'>Department of Methodology</a>, London School of Economics.
+subtitle:
 
 profile:
   align: right
@@ -19,7 +19,7 @@ I am a Postdoctoral Fellow in Quantitative Methods in the [Department of Methodo
 
 My research investigates how place-based distributional conflicts over resources, services, and the costs of policy shape political behaviour. A unifying thread across my work is the question of how political actors provide a lens through which the public understands and supports the costs of social change. Oftentimes those costs, whether concentrated locally or distributed unequally across different social groups, generate grievances that can be exploited by anti-establishment parties, which I demonstrate in various projects. While my work spans Europe and North America, many of my current projects are grounded in the contemporary politics of the United Kingdom.
 
-Research methods are a big part of my research identity. My work is methodologically pluralistic, and I use a variety of causal inference methods, including experimental and quasi-experimental designs, to identify the causal effects of policy shocks and social change on political behaviour. I also use computational methods, including language models and machine learning, to analyze political communication data and to develop new tools for measuring political attitudes and behaviour. You can find some of the [language models](/data/) I've trained on [Hugging Face](https://huggingface.co/z-dickson).
+Research methods are a big part of my research identity. My work combines computational social science methods with design-based causal inference methods. Many of the projects I have worked on leverage language models that have been trained on political communication data. You can find some of these [language models](/data/) on [Hugging Face](https://huggingface.co/z-dickson).
 
 My work is forthcoming or has been published in the _American Political Science Review_, _Comparative Political Studies_, _Political Communication_, _Perspectives on Politics_, and the _Journal of European Public Policy_. For a complete list, see my [publications](/publications/) or [Google Scholar](https://scholar.google.com/citations?user=r72XtswAAAAJ&hl=en). My research has also been covered in [_The Economist_](https://www.economist.com/finance-and-economics/2025/08/24/fear-the-deficit-populism-doom-loop), [_The Guardian_](https://www.theguardian.com/commentisfree/article/2024/aug/02/europe-far-right-labour-nhs-nigel-farage?CMP=share_btn_url), [_The New Statesman_](https://www.newstatesman.com/politics/2025/09/its-official-keir-starmers-island-of-strangers-speech-has-backfired), [_Forbes_](https://www.forbes.com/sites/feliciajackson/2025/10/03/chinas-climate-push-is-an-economic-power-play/), [_El País_](https://elpais.com/espana/2025-10-19/el-aborto-recrudece-la-decisiva-batalla-por-el-voto-de-las-mujeres.html), and [_Internazionale_](https://www.internazionale.it/notizie/stella-levantesi/2025/07/23/estrema-destra-transizione-energetica-ecnomia), and was recently cited in a [UN General Assembly report](https://docs.un.org/en/A/80/138) on inequality and right-wing populism.
 
