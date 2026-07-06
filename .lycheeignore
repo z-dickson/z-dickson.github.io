@@ -11,3 +11,8 @@ https?://trends\.google\.com
 /blob/gh-pages/assets/elite_cues\.pdf
 file:///home/zach/
 /assets/html/
+# Localhost preview URLs in internal docs (CLAUDE.md) — unreachable from CI.
+^https?://localhost
+^https?://127\.0\.0\.1
+# Old Quarto site page linked from the vendored thesis slide deck.
+https://z-dickson\.github\.io/research
