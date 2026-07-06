@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Local preview WITHOUT Docker (for machines with a native Ruby >= 3.x, e.g. the
+# Ubuntu machine). Gems are installed outside the Dropbox-synced repo — see
+# .bundle/config (BUNDLE_PATH: ~/.local/share/mysite-gems).
+#
+# First-time setup on a new machine:
+#   bundle config set --local path "$HOME/.local/share/mysite-gems"
+#   bundle install
+# If mini_racer fails to link (libv8_monolith.a not found under x86_64-linux-gnu),
+# symlink the libv8-node vendor dir:
+#   V8=$HOME/.local/share/mysite-gems/ruby/*/gems/libv8-node-*/vendor/v8
+#   ln -s "$V8/x86_64-linux" "$V8/x86_64-linux-gnu"   # then re-run bundle install
+cd "$(dirname "$0")/.." && exec bundle exec jekyll serve --livereload "$@"

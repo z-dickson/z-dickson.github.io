@@ -19,8 +19,8 @@ resolved during the migration).
 
 - **Jekyll + al-folio** (Ruby). Content is Markdown/Liquid; publications are BibTeX.
 - **No local Ruby needed to deploy** — GitHub Actions builds and deploys on push.
-- Local Ruby is NOT set up on the author's machines (system Ruby is too old). Use
-  **Docker** for local preview (see below).
+- Local preview: **native Ruby on the Ubuntu machine** (set up July 2026, see below),
+  **Docker** on the Mac (system Ruby there is too old).
 
 ## Deployment (how the site goes live)
 
@@ -34,9 +34,30 @@ with a transient `Deployment failed, try again later.` This is a GitHub-side err
 not a content problem — just **re-run the failed "pages build and deployment" run**
 and the live site updates. The already-live site is unaffected while it retries.
 
-## Local preview with Docker (the pending setup task)
+## Local preview — native Ruby (Ubuntu machine, preferred there)
 
-The author is installing **Docker Desktop** (Apple Silicon). Once Docker is running:
+Set up July 2026 on the Ubuntu 24.04 machine (Ruby 3.2.3 + ruby-dev +
+build-essential + imagemagick, all via apt). Gems are installed **outside the
+Dropbox-synced repo** at `~/.local/share/mysite-gems` (via `.bundle/config`,
+which is gitignored) so gem files don't churn Dropbox sync.
+
+```bash
+bin/serve            # = bundle exec jekyll serve --livereload
+```
+
+Open **http://localhost:4000**. Edits to content rebuild automatically and the
+browser live-reloads; only `_config.yml` changes need a server restart. Build
+takes ~5s.
+
+First-time setup on a new Linux machine (and the `mini_racer` gotcha) is
+documented in the comments at the top of `bin/serve`. In short: `mini_racer`
+fails to link on Debian/Ubuntu because the `libv8-node` gem ships its static lib
+under `x86_64-linux` while the linker looks under `x86_64-linux-gnu` — a symlink
+between the two fixes it.
+
+## Local preview with Docker (the Mac)
+
+On the Mac (Apple Silicon), use **Docker Desktop** instead:
 
 ```bash
 cd <repo>
