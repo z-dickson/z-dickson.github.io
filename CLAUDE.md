@@ -119,8 +119,9 @@ Three workflows run on push/PR: `deploy` (build), `check` (prettier), `link-chec
   `.prettierrc`) checks `.md/.yml/.html/.liquid/.scss/.js/.json`. To format after edits
   you need Node: `npm install` then `npx prettier . --write`.
 - **Link checker** (lychee) checks links in `.md`/`.html`. `.lycheeignore` excludes
-  third-party links embedded in the imported slide decks (paywalled/rate-limited/moved)
-  and author-local build paths.
+  third-party links embedded in the imported slide decks (paywalled/rate-limited/moved),
+  author-local build paths, and `localhost` preview URLs (this file is scanned too, so
+  any localhost link outside `.lycheeignore` would fail CI).
 - The imported reveal.js/Quarto slide decks in **`assets/html/`** are treated as vendored
   artifacts — ignored by BOTH prettier (`.prettierignore`) and lychee. Don't lint them.
 
