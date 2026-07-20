@@ -58,6 +58,18 @@ iframe.cv-pdf-embed {
   display: block;
 }
 
+div.cv-pdf-mobile-fallback {
+  text-align: center;
+  padding: 2rem 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.25rem;
+
+  p {
+    margin-bottom: 1rem;
+    color: var(--global-text-color-light);
+  }
+}
+
 /*****************************
  * CV TIME_TABLE styles
  *****************************/

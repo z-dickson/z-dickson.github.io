@@ -19,13 +19,19 @@ layout: default
         <div class="cv-pdf-actions">
           <a href="{{ cv_pdf_url }}" download class="btncv z-depth-0"><i class="fa-solid fa-download mr-1"></i>Download PDF</a>
         </div>
-        <div class="cv-pdf-container">
+        <div class="cv-pdf-container d-none d-md-block">
           <iframe src="{{ cv_pdf_url }}" class="cv-pdf-embed" title="{{ page.title }} PDF">
             <p>
               Your browser doesn't support embedded PDFs.
               <a href="{{ cv_pdf_url }}">Download the PDF</a> instead.
             </p>
           </iframe>
+        </div>
+        <div class="cv-pdf-mobile-fallback d-md-none">
+          <p>PDF previews don't scroll reliably on mobile browsers.</p>
+          <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer" class="btncv z-depth-0"
+            ><i class="fa-solid fa-file-pdf mr-1"></i>View PDF</a
+          >
         </div>
       {% endif %}
     </article>
