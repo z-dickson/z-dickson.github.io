@@ -7,47 +7,27 @@ layout: default
       <div class="page-banner" style="background-image: url('{{ page.banner_image | prepend: '/assets/img/' | relative_url }}')"></div>
     {% endif %}
     <header class="post-header">
-      <h1 class="post-title">
-        {{ page.title }}
-        {% if page.cv_pdf %}
-          <a
-            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-            ><i class="fa-solid fa-file-pdf"></i
-          ></a>
-        {% endif %}
-      </h1>
+      <h1 class="post-title">{{ page.title }}</h1>
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>
       {% endif %}
     </header>
 
     <article>
-      <div class="cv">
-        {% for entry in site.data.cv %}
-          <a class="anchor" id="{{ entry.title }}"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-            <div>
-              {% if entry.type == 'list' %}
-                {% include cv/list.liquid %}
-              {% elsif entry.type == 'map' %}
-                {% include cv/map.liquid %}
-              {% elsif entry.type == 'nested_list' %}
-                {% include cv/nested_list.liquid %}
-              {% elsif entry.type == 'time_table' %}
-                {% include cv/time_table.liquid %}
-              {% elsif entry.type == 'list_groups' %}
-                {% include cv/list_groups.liquid %}
-              {% else %}
-                {{ entry.contents }}
-              {% endif %}
-            </div>
-          </div>
-        {% endfor %}
-      </div>
+      {% if page.cv_pdf %}
+        {% assign cv_pdf_url = page.cv_pdf | prepend: 'assets/pdf/' | relative_url %}
+        <div class="cv-pdf-actions">
+          <a href="{{ cv_pdf_url }}" download class="btncv z-depth-0"><i class="fa-solid fa-download mr-1"></i>Download PDF</a>
+        </div>
+        <div class="cv-pdf-container">
+          <iframe src="{{ cv_pdf_url }}" class="cv-pdf-embed" title="{{ page.title }} PDF">
+            <p>
+              Your browser doesn't support embedded PDFs.
+              <a href="{{ cv_pdf_url }}">Download the PDF</a> instead.
+            </p>
+          </iframe>
+        </div>
+      {% endif %}
     </article>
   </div>
 {% else %}

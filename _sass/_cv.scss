@@ -34,6 +34,31 @@ a.btncv:hover {
 }
 
 /*****************************
+ * CV PDF embed styles
+ *****************************/
+
+div.cv-pdf-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+div.cv-pdf-container {
+  width: 100%;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+iframe.cv-pdf-embed {
+  width: 100%;
+  height: 85vh;
+  min-height: 600px;
+  border: none;
+  display: block;
+}
+
+/*****************************
  * CV TIME_TABLE styles
  *****************************/
 
