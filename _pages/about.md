@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 I am a Postdoctoral Fellow in Quantitative Methods in the [Department of Methodology](https://www.lse.ac.uk/methodology) at the London School of Economics. I am also affiliated with the [Data Science Institute](https://www.lse.ac.uk/DSI), the [Grantham Research Institute on Climate Change and the Environment](https://www.lse.ac.uk/granthaminstitute/), and the [Public Opinion Analytics Lab](https://www.poal.co.uk/). I completed my PhD at the [University of Glasgow](https://www.gla.ac.uk/schools/socialpolitical/) in 2024.
 
-My research examines the rise of radical right populism, with a particular focus on the politics of climate change and public services. Place-based dynamics, such as local economic conditions and conflict over access to resources, create grievances that radical right parties mobilise against. I am interested in how political actors capitalize on these grievances to shape public opinion and vote choice, particularly in North America and Europe.
+My research examines the drivers of support for right-wing populism, with a particular focus on the intersection between party competition and localized distributive conflict. I am especially interested in how political actors capitalize on place-based policies and local grievances to shape political preferences and behavior.
 
 Research methods are a big part of my research identity. My work combines computational social science methods with design-based causal inference methods. Many of the projects I have worked on use large language models that have been trained on political communication data. You can find some of these [models](/data/) on [Hugging Face](https://huggingface.co/z-dickson).
 
