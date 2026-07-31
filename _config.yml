@@ -345,6 +345,7 @@ filtered_bibtex_keywords:
     code,
     file,
     html,
+    note,
     pdf,
     poster,
     preview,
