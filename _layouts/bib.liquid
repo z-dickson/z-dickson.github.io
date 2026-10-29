@@ -3,6 +3,22 @@
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
+      {%- if entry.abbr -%}
+        <!-- Venue badge: shown on mobile in place of the cover image -->
+        {% assign venue = site.data.venues[entry.abbr] %}
+        <abbr
+          class="venue-badge badge rounded"
+          {% if venue.color %}
+            style="background-color: {{ venue.color }}"
+          {% endif %}
+        >
+          {%- if venue.url -%}
+            <a href="{{ venue.url }}">{{ entry.abbr }}</a>
+          {%- else -%}
+            {{ entry.abbr }}
+          {%- endif -%}
+        </abbr>
+      {%- endif -%}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">

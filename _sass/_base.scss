@@ -1168,3 +1168,96 @@ ninja-keys::part(ninja-input) {
 ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
 }
+
+// Venue badge only appears on mobile, where it replaces the cover image.
+.publications ol.bibliography li .abbr abbr.venue-badge {
+  display: none;
+}
+
+/******************************************************************************
+ * Mobile layout (< 576px): smaller headshot, compact publication list without
+ * journal covers. Desktop is unaffected.
+ ******************************************************************************/
+
+@media (max-width: 575.98px) {
+  // Small circular headshot floated beside the bio instead of a full-width photo.
+  .profile {
+    width: 110px;
+    margin-bottom: 0.5rem;
+
+    &.float-right {
+      margin-left: 0.75rem;
+    }
+
+    &.float-left {
+      margin-right: 0.75rem;
+    }
+  }
+
+  .publications {
+    margin-top: 1rem;
+
+    h2.bibliography {
+      margin-top: 1.25rem;
+      margin-bottom: 0;
+      padding-top: 0.5rem;
+      font-size: 1.25rem;
+    }
+
+    ol.bibliography li {
+      margin-bottom: 0;
+      padding: 0.85rem 0;
+      font-size: 0.95rem;
+      line-height: 1.45;
+
+      + li {
+        border-top: 1px solid var(--global-divider-color);
+      }
+
+      // Swap the journal cover for the venue badge.
+      .abbr {
+        margin-bottom: 0.3rem;
+
+        figure,
+        img.preview {
+          display: none;
+        }
+
+        abbr.venue-badge {
+          display: inline-block;
+          margin-bottom: 0;
+          padding: 0.25em 0.6em;
+          font-size: 0.75rem;
+        }
+      }
+
+      .title {
+        font-size: 1.05rem;
+        line-height: 1.3;
+        margin-bottom: 0.2rem;
+      }
+
+      .author,
+      .periodical {
+        color: var(--global-text-color-light);
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin-top: 0.45rem;
+
+        a.btn {
+          margin: 0;
+          padding: 0.1rem 0.6rem;
+          font-size: 0.8rem;
+          line-height: 1.5;
+          border-color: var(--global-divider-color);
+          border-radius: 3px;
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+}
