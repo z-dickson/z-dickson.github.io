@@ -273,7 +273,7 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt", "assets/js/search/*.js"]
+  exclude: ["robots.txt", "assets/js/search/*.js", "house-2026/*"] # house-2026: standalone dashboard, already built (uses ES2020 syntax the uglifier rejects)
   uglifier_args:
     harmony: true
 

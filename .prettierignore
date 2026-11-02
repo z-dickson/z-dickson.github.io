@@ -12,3 +12,5 @@ _posts/2015-10-20-math.md
 assets/html/**
 # Project handoff / context doc (not part of the site)
 CLAUDE.md
+# Standalone House 2026 campaign-sites dashboard (built in a separate repo; includes generated JSON data)
+house-2026/**

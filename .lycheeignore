@@ -16,3 +16,6 @@ file:///home/zach/
 ^https?://127\.0\.0\.1
 # Old Quarto site page linked from the vendored thesis slide deck.
 https://z-dickson\.github\.io/research
+# Font CDN hosts used as <link rel="preconnect"> targets in house-2026/ (bare hostnames return 404 by design).
+^https://fonts\.googleapis\.com/?$
+^https://fonts\.gstatic\.com/?$
